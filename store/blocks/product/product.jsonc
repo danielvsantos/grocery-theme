@@ -4,6 +4,7 @@
       "flex-layout.row#product-breadcrumb",
       "flex-layout.row#product-main",
       "flex-layout.row#description",
+      "flex-layout.row#product-specifications",
       "shelf.relatedProducts",
       "product-reviews",
       "product-questions-and-answers"
@@ -21,6 +22,7 @@
     },
     "children": ["product-description"]
   },
+
   "flex-layout.row#product-main": {
     "props": {
       "colGap": 7,
@@ -46,11 +48,15 @@
 
   "product-specification-badges": {
     "props": {
-      "specificationGroupName": "Group",
-      "specificationName": "On Sale",
-      "visibleWhen": "True",
-      "displayValue": "SPECIFICATION_NAME"
+      "specificationGroupName": "allSpecifications",
+      "specificationName": "Allergens_0",
+      "displayValue": "SPECIFICATION_VALUE"
     }
+  },
+  "flex-layout.row#product-specifications": {
+    "children": [
+      "product-specifications#product"
+    ]
   },
 
   "flex-layout.col#stack": {

@@ -1,0 +1,9 @@
+{
+    "product-specifications#product": {
+        "props": {
+        "visibleSpecifications": ["Nutrients", "Ingredientes"],
+        "shoudCollapseOnTabChange": true,
+        "collapsible": "desktopOnly"
+        }
+      }
+}
