@@ -22,13 +22,14 @@
 }
 
 .newsletter {
-  background-color: #03054e;
+  background-image: url(/arquivos/newsletter-background.jpg?v=636985158698700000);
   max-width: 1528px;
   margin: 0 auto;
 }
 
 .newsletter .container {
   padding: 60px 10px;
+  background-image: url(/arquivos/newsletter-background.jpg?v=636985158698700000);
 }
 
 .label {

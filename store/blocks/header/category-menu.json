@@ -4,110 +4,13 @@
       "experimentalOptimizeRendering": true
     },
     "children": [
-      "menu-item#category-apparel",
-      "menu-item#category-home",
-      "menu-item#more"
+      "menu-item#category-1",
+      "menu-item#category-2"
     ]
   },
-  "menu-item#category-apparel": {
+  "menu-item#category-1": {
     "props": {
-      "id": "menu-item-category-apparel",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/apparel---accessories/",
-        "noFollow": false,
-        "tagTitle": "Apparel & Accessories",
-        "text": "Apparel & Accessories"
-      }
-    },
-    "blocks": [
-      "vtex.menu@2.x:submenu#category-apparel"
-    ]
-  },
-  "vtex.menu@2.x:submenu#category-apparel": {
-    "props": {
-      "width": "auto"
-    },
-    "children": [
-      "vtex.menu@2.x:menu#category-apparel"
-    ]
-  },
-  "vtex.menu@2.x:menu#category-apparel": {
-    "props": {
-      "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#category-apparel-clothing",
-      "menu-item#category-apparel-accessories",
-      "menu-item#category-apparel-eyeglasses"
-    ]
-  },
-  "menu-item#category-apparel-clothing": {
-    "props": {
-      "id": "menu-item-category-apparel-clothing",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/apparel---accessories/clothing/",
-        "noFollow": false,
-        "tagTitle": "Clothing",
-        "text": "Clothing"
-      }
-    }
-  },
-  "menu-item#category-apparel-accessories": {
-    "props": {
-      "id": "menu-item-category-apparel-accessories",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/apparel---accessories/accessories/",
-        "noFollow": false,
-        "tagTitle": "Accessories",
-        "text": "Accessories"
-      }
-    }
-  },
-  "menu-item#category-apparel-eyeglasses": {
-    "props": {
-      "id": "menu-item-category-apparel-eyeglasses",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/apparel---accessories/eyeglasses/",
-        "noFollow": false,
-        "tagTitle": "Eyeglasses",
-        "text": "Eyeglasses"
-      }
-    }
-  },
-  "menu-item#category-home": {
-    "props": {
-      "id": "menu-item-category-home",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/home---decor/",
-        "noFollow": false,
-        "tagTitle": "Home & Decor",
-        "text": "Home & Decor"
-      }
-    }
-  },
-  "menu-item#more": {
-    "props": {
-      "id": "menu-item-custom-sale",
+      "id": "menu-item-category-1",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -120,54 +23,229 @@
       }
     },
     "blocks": [
-      "vtex.menu@2.x:submenu#more"
+      "vtex.menu@2.x:submenu#category-1"
     ]
   },
-  "vtex.menu@2.x:submenu#more": {
+  "vtex.menu@2.x:submenu#category-1": {
+    "props": {
+      "width": "100%"
+      
+    },
+    "children": [
+      "flex-layout.row#category-1-submenu"
+    ]
+  },
+  "flex-layout.row#category-1-submenu": {
+    "children": [
+      "flex-layout.col#category-1-submenu-col-1",
+      "flex-layout.col#category-1-submenu-col-2"
+    ]
+  },
+  "flex-layout.col#category-1-submenu-col-1": {
+    "children": [
+      "vtex.menu@2.x:menu#category-1-submenu"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-1-submenu": {
+    "props": {
+      "orientation": "vertical",
+      "tagTitle": "Submenu"
+    },
+    "children": [
+      "menu-item#category-1-subcategory-1",
+      "menu-item#category-1-subcategory-2"
+    ]
+  },
+  "menu-item#category-1-subcategory-1": {
+    "props": {
+      "id": "menu-item-subcategory-1",
+      "type": "custom",
+      "iconId": null,
+      "tagTitle": "Subcategory 1",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Cat 1 Sub 1",
+        "text": "Cat 1 Sub 1"
+      }
+    }
+  },
+  "menu-item#category-1-subcategory-2": {
+    "props": {
+      "id": "menu-item-subcategory-2",
+      "type": "custom",
+      "iconId": null,
+      "tagTitle": "Subcategory 2",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Cat 1 Sub 2",
+        "text": "Cat 1 Sub 2"
+      }
+    }
+  },
+  "flex-layout.col#category-1-submenu-col-2": {
+    "children": [
+      "flex-layout.row#category-1-banner-1",
+      "flex-layout.row#category-1-banner-2",
+      "flex-layout.row#category-1-banner-3"
+    ]
+  },
+  "flex-layout.row#category-1-banner-1": {
+    "children":["image#category-1-banner-1"],
+    "props": {
+      }
+  },
+  "image#category-1-banner-1":{
+    "props":{
+      "src": "/arquivos/Iogurt-CAT.png?v=637209216837170000",
+      "maxHeight": 200
+    }
+  },
+  "flex-layout.row#category-1-banner-2": {
+    "children":["image#category-1-banner-2"],
+    "props": {
+      }
+  },
+  "image#category-1-banner-2":{
+    "props":{
+      "src": "/arquivos/Iogurt-CAT.png?v=637209216837170000",
+      "maxHeight": 200
+    }
+  },
+  "flex-layout.row#category-1-banner-3": {
+    "children":["image#category-1-banner-3"],
+    "props": {
+      }
+  },
+  "image#category-1-banner-3":{
+    "props":{
+      "src": "/arquivos/Iogurt-CAT.png?v=637209216837170000",
+      "maxHeight": 200
+    }
+  },
+  "menu-item#category-2": {
+    "props": {
+      "id": "menu-item-category-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Cat 2",
+        "text": "Cat 2"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-2"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-2": {
     "props": {
       "width": "100%"
     },
     "children": [
-      "flex-layout.row#menu-more"
+      "flex-layout.row#category-2-submenu"
     ]
   },
-  "flex-layout.row#menu-more": {
+  "flex-layout.row#category-2-submenu": {
     "children": [
-      "flex-layout.col#menu-more-1",
-      "flex-layout.col#menu-more-2"
+      "flex-layout.col#category-2-submenu-col-1",
+      "flex-layout.col#category-2-submenu-col-2"
     ]
   },
-  "flex-layout.col#menu-more-1": {
+  "flex-layout.col#category-2-submenu-col-1": {
     "children": [
-      "vtex.menu@2.x:menu#more"
+      "vtex.menu@2.x:menu#category-2-submenu"
+
     ]
   },
-  "flex-layout.col#menu-more-2": {
-    "children": [
-      "info-card#home"
-    ]
-  },
-  "vtex.menu@2.x:menu#more": {
+  "vtex.menu@2.x:menu#category-2-submenu": {
     "props": {
-      "orientation": "vertical"
+      "orientation": "vertical",
+      "tagTitle": "Submenu"
     },
     "children": [
-      "menu-item#about-us"
+      "menu-item#category-2-subcategory-1",
+      "menu-item#category-2-subcategory-2"
     ]
   },
-  "menu-item#about-us": {
+  "menu-item#category-2-subcategory-1": {
     "props": {
-      "id": "menu-item-about-us",
+      "id": "menu-item-subcategory-1",
       "type": "custom",
+      "iconId": null,
+      "tagTitle": "Subcategory 1",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Cat 2 Sub 1",
+        "text": "Cat 2 Sub 1"
+      }
+    }
+  },
+  "menu-item#category-2-subcategory-2": {
+    "props": {
+      "id": "menu-item-subcategory-2",
+      "type": "custom",
+      "tagTitle": "Subcategory 2",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
         "href": "/about-us",
         "noFollow": true,
-        "tagTitle": "About us",
-        "text": "About us"
+        "tagTitle": "Cat 2 Sub 2",
+        "text": "Cat 2 Sub 2"
       }
+    }
+  },
+  "flex-layout.col#category-2-submenu-col-2": {
+    "children": [
+      "flex-layout.row#category-2-banner-1",
+      "flex-layout.row#category-2-banner-2",
+      "flex-layout.row#category-2-banner-3"
+    ]
+  },
+  "flex-layout.row#category-2-banner-1": {
+    "children":["image#category-2-banner-1"],
+    "props": {
+      }
+  },
+  "image#category-2-banner-1":{
+    "props":{
+      "src": "/arquivos/Iogurt-CAT.png?v=637209216837170000",
+      "maxHeight": 200
+    }
+  },
+  "flex-layout.row#category-2-banner-2": {
+    "children":["image#category-2-banner-2"],
+    "props": {
+      }
+  },
+  "image#category-2-banner-2":{
+    "props":{
+      "src": "/arquivos/Iogurt-CAT.png?v=637209216837170000",
+      "maxHeight": 200
+    }
+  },
+  "flex-layout.row#category-2-banner-3": {
+    "children":["image#category-2-banner-3"],
+    "props": {
+      }
+  },
+  "image#category-2-banner-3":{
+    "props":{
+      "src": "/arquivos/Iogurt-CAT.png?v=637209216837170000",
+      "maxHeight": 200
     }
   }
 }

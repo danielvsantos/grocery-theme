@@ -40,9 +40,12 @@
     "props": {
       "blockClass": "sticky-header"
     },
-    "children": ["flex-layout.row#4-desktop"]
+    "children": [
+      "flex-layout.row#3-desktop",
+      "flex-layout.row#4-desktop"
+    ]
   },
-  "flex-layout.row#4-desktop": {
+  "flex-layout.row#3-desktop": {
     "props": {
       "blockClass": "main-header",
       "horizontalAlign": "center",
@@ -53,7 +56,6 @@
     },
     "children": [
       "flex-layout.col#logo-desktop",
-      "flex-layout.col#category-menu",
       "flex-layout.col#spacer",
       "search-bar",
       "locale-switcher",
@@ -78,8 +80,21 @@
       "title": "Logo",
       "href": "/",
       "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo.png",
-      "width": "180"
+      "width": "128"
     }
+  },
+  "flex-layout.row#4-desktop":{
+    "props": {
+      "blockClass": "main-header",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#category-menu"
+    ]
   },
   "header-layout.mobile": {
     "children": ["sticky-layout#1-mobile"]
@@ -108,9 +123,7 @@
 
   "menu#drawer": {
     "children": [
-      "menu-item#category-apparel",
-      "menu-item#category-home",
-      "menu-item#more"
+      "menu-item#category-1"
     ],
     "props": {
       "orientation": "vertical"
