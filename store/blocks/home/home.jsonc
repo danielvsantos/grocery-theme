@@ -1,7 +1,7 @@
 {
   "store.home": {
     "blocks": [
-      "list-context.image-list#demo",
+      "flex-layout.row#main-slider-banner",
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
       "__fold__.experimentalLazyAssets",
@@ -9,6 +9,7 @@
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
       "info-card#home",
+      "flex-layout.row#marcas",
       "rich-text#question",
       "rich-text#link",
       "newsletter",
@@ -19,7 +20,24 @@
   "shelf#home": {
     "blocks": ["product-summary.shelf"]
   },
-
+  "flex-layout.row#main-slider-banner": {
+    "children": [
+      "flex-layout.col#main-slider",
+      "flex-layout.col#main-banner"
+    ],
+    "props": {
+      "blockClass":"rowGalleryGrid"
+    }
+  },
+  "flex-layout.col#main-slider": {
+    "children": [
+      "list-context.image-list#demo"
+    ],
+    "props": {
+      "width": "70%",
+      "blockClass": "main-slider"
+    }
+  },
   "list-context.image-list#demo": {
     "children": ["slider-layout#demo-images"],
     "props": {
@@ -46,6 +64,18 @@
       "infinite": true,
       "showNavigationArrows": "desktopOnly",
       "blockClass": "carousel"
+    }
+  },
+  "flex-layout.col#main-banner": {
+    "children":["image#main-banner"],
+    "props": {
+      "width": "30%",
+      "blockClass": "main-banner"
+    }
+  },
+  "image#main-banner":{
+    "props":{
+      "src": "/arquivos/Logo@3x.png?v=636947264585600000"
     }
   },
 
@@ -113,7 +143,24 @@
       "textAlignment": "center"
     }
   },
-
+  "flex-layout.row#marcas": {
+    "children": [
+        "flex-layout.col#marcas"
+    ],
+    "title": "Brand Carrousel",
+    "props": {
+        "blockClass": "miniBannersTopRow"
+    }    
+},
+"flex-layout.col#marcas": {
+    "children": [
+        "powerplanet-mini-banners"
+    ],
+    "title": "General Settings",
+    "props": {
+        "blockClass": "miniBannersTopCol"
+    }
+},
   "rich-text#question": {
     "props": {
       "text": "**This is an example store built using the VTEX platform.\nWant to know more?**",

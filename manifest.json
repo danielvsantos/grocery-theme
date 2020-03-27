@@ -1,7 +1,7 @@
 {
-  "vendor": "vtex",
+  "vendor": "ametllerorigen",
   "name": "store-theme",
-  "version": "3.32.0",
+  "version": "3.33.0",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
@@ -52,7 +52,8 @@
     "vtex.store-icons": "0.x",
     "vtex.modal-layout": "0.x",
     "vtex.store-link": "0.x",
-    "vtex.product-gifts": "0.x"
+    "vtex.product-gifts": "0.x",
+    "powerplanet.powerplanet-mini-banners": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
