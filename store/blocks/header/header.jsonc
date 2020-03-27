@@ -28,7 +28,7 @@
   },
   "notification.bar#home": {
     "props": {
-      "content": "SELECTED ITEMS ON SALE! CHECK IT OUT!"
+      "content": "En aquests moments no podem oferir-te dates de lliurament. Tornarem a tenir disponibilitat a partir de dissabte 28 de març."
     }
   },
   "flex-layout.col#spacer": {
