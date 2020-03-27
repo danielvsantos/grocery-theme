@@ -1,9 +1,15 @@
 {
   "store.product": {
     "children": [
+      "responsive-layout.desktop",
+      "responsive-layout.mobile"
+    ]
+  },
+  "responsive-layout.desktop":{
+    "children": [
       "flex-layout.row#product-breadcrumb",
       "flex-layout.row#product-main",
-      "flex-layout.row#description",
+      "flex-layout.row#product-specifications",
       "shelf.relatedProducts",
       "product-reviews",
       "product-questions-and-answers"
@@ -21,6 +27,7 @@
     },
     "children": ["product-description"]
   },
+
   "flex-layout.row#product-main": {
     "props": {
       "colGap": 7,
@@ -46,11 +53,15 @@
 
   "product-specification-badges": {
     "props": {
-      "specificationGroupName": "Group",
-      "specificationName": "On Sale",
-      "visibleWhen": "True",
-      "displayValue": "SPECIFICATION_NAME"
+      "specificationGroupName": "allSpecifications",
+      "specificationName": "Allergens_0",
+      "displayValue": "SPECIFICATION_VALUE"
     }
+  },
+  "flex-layout.row#product-specifications": {
+    "children": [
+      "product-specifications#product"
+    ]
   },
 
   "flex-layout.col#stack": {
@@ -82,14 +93,13 @@
       "product-rating-summary",
       "product-price#product-details",
       "product-separator",
-      "product-identifier.product",
       "sku-selector",
       "product-quantity",
       "product-assembly-options",
       "product-gifts",
       "flex-layout.row#buy-button",
       "availability-subscriber",
-      "shipping-simulator",
+      "flex-layout.row#description",
       "share#default"
     ]
   },
@@ -103,8 +113,8 @@
 
   "product-price#product-details": {
     "props": {
-      "showInstallments": true,
-      "showSavings": true
+      "showSavings": true,
+      "showListPrice": true
     }
   },
 
@@ -125,5 +135,17 @@
         "Pinterest": true
       }
     }
+  },
+  "responsive-layout.mobile":{
+    "children": [
+      "flex-layout.row#product-breadcrumb",
+      "flex-layout.row#product-main",
+      "flex-layout.row#product-specifications-mobile"
+    ]
+  },
+  "flex-layout.row#product-specifications-mobile": {
+    "children": [
+      "product-specifications#product-mobile"
+    ]
   }
 }
