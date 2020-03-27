@@ -1,11 +1,15 @@
 .notificationBarContainer {
-  background-color: #e6f1e6;
-  color: #03034e;
+  background-color: #63BBA8;
+  color: #ffffff;
   font-weight: 700;
-  font-size: 12px;
-  text-decoration: underline;
+  font-size: 11px;
+  text-decoration: none;
+  height: 45px;
+  
 }
-
+.notificationContent {
+  vertical-align: middle;
+}
 .searchBarContainer :global(.vtex-styleguide-9-x-input) {
   max-width: 208px;
 }
