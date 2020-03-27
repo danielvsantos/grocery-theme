@@ -96,3 +96,19 @@
 .flexRow--addToCartRow {
   padding-bottom: 1rem;
 }
+
+.flexRow--rowGalleryGrid {
+  max-width: 1280px;
+  margin: 0 auto ;
+}
+
+.flexRow--rowGalleryGrid :global(.vtex-store-components-3-x-container) {
+  margin: 0;
+  max-width: 100%;
+}
+.flexRowContent--rowGalleryGrid {
+  margin-bottom: 20px;
+}
+.flexCol--main-banner {
+  padding: 0 0 20px 9px;
+}
