@@ -1,7 +1,31 @@
 {
     "product-specifications#product": {
         "props": {
-        "visibleSpecifications": ["Nutrients", "Ingredientes"],
+        "visibleSpecifications": [
+            "Allergens_0",
+            "Nutrients",
+            "Origen",
+            "Peso aproximado",
+            "Preferencia_0",
+            "Ingredientes"
+
+        ],
+        "shoudCollapseOnTabChange": true,
+        "collapsible": "desktopOnly",
+        "showSpecificationsTab": true
+        }
+      },
+      "product-specifications#product-mobile": {
+        "props": {
+        "visibleSpecifications": [
+            "Allergens_0",
+            "Nutrients",
+            "Origen",
+            "Peso aproximado",
+            "Preferencia_0",
+            "Ingredientes"
+
+        ],
         "shoudCollapseOnTabChange": true,
         "collapsible": "desktopOnly"
         }
