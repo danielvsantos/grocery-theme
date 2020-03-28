@@ -79,8 +79,8 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo.png",
-      "width": "128"
+      "url": "",
+      "width": "88  "
     }
   },
   "flex-layout.row#4-desktop":{
