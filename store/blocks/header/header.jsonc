@@ -17,24 +17,28 @@
     "children": ["telemarketing"],
     "props": {
       "fullWidth": true
-    }
+    },
+    "title": "HEADER Desktop - Assisted Sales"
   },
 
   "flex-layout.row#2-desktop": {
     "children": ["notification.bar#home"],
     "props": {
       "fullWidth": "true"
-    }
+    },
+    "title": "HEADER Desktop - Notification Bar"
   },
   "notification.bar#home": {
     "props": {
       "content": "En aquests moments no podem oferir-te dates de lliurament. Tornarem a tenir disponibilitat a partir de dissabte 28 de març."
-    }
+    },
+    "title": "Text"
   },
   "flex-layout.col#spacer": {
     "props": {
       "width": "grow"
-    }
+    },
+    "title": "Spacer"
   },
   "sticky-layout#4-desktop": {
     "props": {
@@ -43,7 +47,8 @@
     "children": [
       "flex-layout.row#3-desktop",
       "flex-layout.row#4-desktop"
-    ]
+    ],
+    "title": "HEADER Desktop - Main Row"
   },
   "flex-layout.row#3-desktop": {
     "props": {
@@ -61,27 +66,24 @@
       "locale-switcher",
       "login",
       "minicart.v2"
-    ]
+    ],
+    "title": "Top Row"
   },
   "flex-layout.col#logo-desktop": {
     "props": {
       "verticalAlign": "middle"
     },
-    "children": ["logo#desktop"]
-  },
-  "flex-layout.col#category-menu": {
-    "props": {
-      "verticalAlign": "middle"
-    },
-    "children": ["vtex.menu@2.x:menu#category-menu"]
+    "children": ["logo#desktop"],
+    "title": "Desktop Logo"
   },
   "logo#desktop": {
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo.png",
-      "width": "128"
-    }
+      "url": "",
+      "width": "70"
+    },
+    "title": "Only Logo"
   },
   "flex-layout.row#4-desktop":{
     "props": {
@@ -93,19 +95,21 @@
       "fullWidth": true
     },
     "children": [
-      "flex-layout.col#category-menu"
-    ]
+      "vtex.menu@2.x:menu#category-menu"
+    ],
+    "title": "Bottom Row"
   },
   "header-layout.mobile": {
     "children": ["sticky-layout#1-mobile"]
   },
   "sticky-layout#1-mobile": {
-    "children": ["flex-layout.row#1-mobile"]
+    "children": ["flex-layout.row#1-mobile"],
+    "title": "HEADER Mobile - Bottom Row"
   },
   "flex-layout.row#1-mobile": {
     "children": [
       "drawer",
-      "logo#mobile",
+      "logo#desktop",
       "flex-layout.col#spacer",
       "login",
       "minicart.v2"
@@ -123,19 +127,20 @@
 
   "menu#drawer": {
     "children": [
-      "menu-item#category-1"
+      "menu-item#department-1",
+      "menu-item#department-2",
+      "menu-item#department-3",
+      "menu-item#department-4",
+      "menu-item#department-5",
+      "menu-item#department-6",
+      "menu-item#department-7",
+      "menu-item#department-8",
+      "menu-item#department-9",
+      "menu-item#department-10"
+      
     ],
     "props": {
       "orientation": "vertical"
-    }
-  },
-
-  "logo#mobile": {
-    "props": {
-      "title": "Logo",
-      "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo-mobile.png",
-      "width": "70"
     }
   }
 }
