@@ -317,21 +317,21 @@
           },
           "action": {
             "fontFamily": "San Francisco, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
-            "fontWeight": "500",
+            "fontWeight": "800",
             "fontSize": "1rem",
             "textTransform": "uppercase",
             "letterSpacing": "0"
           },
           "action--small": {
             "fontFamily": "San Francisco, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
-            "fontWeight": "500",
+            "fontWeight": "800",
             "fontSize": "0.875rem",
             "textTransform": "uppercase",
             "letterSpacing": "0"
           },
           "action--large": {
             "fontFamily": "San Francisco, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
-            "fontWeight": "500",
+            "fontWeight": "800",
             "fontSize": "1.25rem",
             "textTransform": "uppercase",
             "letterSpacing": "0"
