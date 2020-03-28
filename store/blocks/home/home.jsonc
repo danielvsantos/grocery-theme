@@ -1,19 +1,37 @@
 {
   "store.home": {
     "blocks": [
+      "responsive-layout.desktop#home",
+      "responsive-layout.mobile#home"
+    ]
+  },
+  "responsive-layout.desktop#home":{
+    "children":[
       "flex-layout.row#main-slider-banner",
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
       "__fold__.experimentalLazyAssets",
       "flex-layout.row#deals",
-      "rich-text#shelf-title",
-      "flex-layout.row#shelf",
+      "rich-text#top-shelf-title",
+      "flex-layout.row#top-shelf",
       "info-card#home",
       "flex-layout.row#marcas",
       "rich-text#question",
       "rich-text#link",
       "newsletter",
-      "flex-layout.row#shelf2"
+      "rich-text#bottom-shelf-title",
+      "flex-layout.row#bottom-shelf"
+    ]
+  },
+  "responsive-layout.mobile#home":{
+    "children":[
+      "list-context.image-list#demo",
+      /* You can make references to blocks defined in other files.
+       * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
+      "__fold__.experimentalLazyAssets",
+      "rich-text#top-shelf-title",
+      "flex-layout.row#top-shelf",
+      "newsletter"
     ]
   },
 
@@ -25,6 +43,7 @@
       "flex-layout.col#main-slider",
       "flex-layout.col#main-banner"
     ],
+    "title": "HOME - 1st Row Desktop",
     "props": {
       "blockClass":"rowGalleryGrid"
     }
@@ -33,6 +52,7 @@
     "children": [
       "list-context.image-list#demo"
     ],
+    "title": "Left Column",
     "props": {
       "width": "70%",
       "blockClass": "main-slider"
@@ -40,6 +60,7 @@
   },
   "list-context.image-list#demo": {
     "children": ["slider-layout#demo-images"],
+    "title": "Main Banners",
     "props": {
       "height": 720,
       "images": [
@@ -71,29 +92,34 @@
     "props": {
       "width": "30%",
       "blockClass": "main-banner"
-    }
+    },
+    "title": "Right Column"
   },
   "image#main-banner":{
     "props":{
       "src": "/arquivos/Logo@3x.png?v=636947264585600000"
-    }
+    },
+    "title": "Banner"
   },
 
-  "rich-text#shelf-title": {
+  "rich-text#top-shelf-title": {
     "props": {
       "text": "## Summer",
       "blockClass": "shelfTitle"
-    }
+    },
+    "title": "HOME - Top Shelf Title"
   },
-  "flex-layout.row#shelf": {
-    "children": ["list-context.product-list#demo1"]
+  "flex-layout.row#top-shelf": {
+    "children": ["list-context.product-list#demo1"],
+    "title": "HOME - Top Shelf"
   },
   "list-context.product-list#demo1": {
     "blocks": ["product-summary.shelf"],
     "children": ["slider-layout#demo-products"],
     "props": {
       "orderBy": "OrderByTopSaleDESC"
-    }
+    },
+    "title": "Shelf Configurations"
   },
   "slider-layout#demo-products": {
     "props": {
@@ -107,15 +133,24 @@
       "blockClass": "shelf"
     }
   },
-  "flex-layout.row#shelf2": {
-    "children": ["list-context.product-list#demo2"]
+  "rich-text#bottom-shelf-title": {
+    "props": {
+      "text": "## Summer",
+      "blockClass": "shelfTitle"
+    },
+    "title": "HOME - Bottom Shelf Title"
+  },
+  "flex-layout.row#bottom-shelf": {
+    "children": ["list-context.product-list#demo2"],
+    "title": "HOME - Bottom Shelf"
   },
   "list-context.product-list#demo2": {
     "blocks": ["product-summary.shelf"],
     "children": ["slider-layout#demo-products2"],
     "props": {
       "orderBy": "OrderByTopSaleDESC"
-    }
+    },
+    "title": "Shelf Configurations"
   },
   "slider-layout#demo-products2": {
     "props": {
@@ -141,13 +176,14 @@
       "callToActionUrl": "/sale/d",
       "blockClass": "info-card-home",
       "textAlignment": "center"
-    }
+    },
+    "title": "HOME - Infocard"
   },
   "flex-layout.row#marcas": {
     "children": [
         "flex-layout.col#marcas"
     ],
-    "title": "Brand Carrousel",
+    "title": "HOME - Brand Carrousel",
     "props": {
         "blockClass": "miniBannersTopRow"
     }    
@@ -165,13 +201,15 @@
     "props": {
       "text": "**This is an example store built using the VTEX platform.\nWant to know more?**",
       "blockClass": "question"
-    }
+    },
+    "title": "HOME - 1st Rich Text"
   },
 
   "rich-text#link": {
     "props": {
       "text": "\n**Reach us at**\nwww.vtex.com.br",
       "blockClass": "link"
-    }
+    },
+    "title": "HOME - 2nd Rich Text"
   }
 }
