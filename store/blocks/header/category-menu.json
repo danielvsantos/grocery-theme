@@ -4,13 +4,22 @@
       "experimentalOptimizeRendering": true
     },
     "children": [
-      "menu-item#category-1",
-      "menu-item#category-2"
-    ]
+      "menu-item#department-1",
+      "menu-item#department-2",
+      "menu-item#department-3",
+      "menu-item#department-4",
+      "menu-item#department-5",
+      "menu-item#department-6",
+      "menu-item#department-7",
+      "menu-item#department-8",
+      "menu-item#department-9",
+      "menu-item#department-10"
+    ],
+    "title": "Category Mega Menu"
   },
-  "menu-item#category-1": {
+  "menu-item#department-1": {
     "props": {
-      "id": "menu-item-category-1",
+      "id": "menu-item-department-1",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -18,119 +27,317 @@
         "type": "internal",
         "href": "#",
         "noFollow": true,
-        "tagTitle": "More",
-        "text": "More"
+        "tagTitle": "Department 1",
+        "text": "Department 1"
       }
     },
     "blocks": [
-      "vtex.menu@2.x:submenu#category-1"
+      "vtex.menu@2.x:submenu#department-1"
     ]
   },
-  "vtex.menu@2.x:submenu#category-1": {
+  "vtex.menu@2.x:submenu#department-1": {
     "props": {
       "width": "100%"
       
     },
     "children": [
-      "flex-layout.row#category-1-submenu"
+      "flex-layout.row#department-1-submenu"
     ]
   },
-  "flex-layout.row#category-1-submenu": {
+  "flex-layout.row#department-1-submenu": {
     "children": [
-      "flex-layout.col#category-1-submenu-col-1",
-      "flex-layout.col#category-1-submenu-col-2"
+      "flex-layout.col#department-1-submenu-col-1",
+      "flex-layout.col#department-1-submenu-col-2"
     ]
   },
-  "flex-layout.col#category-1-submenu-col-1": {
+  "flex-layout.col#department-1-submenu-col-1": {
     "children": [
-      "vtex.menu@2.x:menu#category-1-submenu"
-    ]
+      "vtex.menu@2.x:menu#department-1-submenu"
+    ],
+    "title": "Left Category Links"
   },
-  "vtex.menu@2.x:menu#category-1-submenu": {
+  "vtex.menu@2.x:menu#department-1-submenu": {
     "props": {
       "orientation": "vertical",
       "tagTitle": "Submenu"
     },
     "children": [
-      "menu-item#category-1-subcategory-1",
-      "menu-item#category-1-subcategory-2"
+      "menu-item#department-1-category-1",
+      "menu-item#department-1-category-2",
+      "menu-item#department-1-category-3",
+      "menu-item#department-1-category-4",
+      "menu-item#department-1-category-5",
+      "menu-item#department-1-category-6",
+      "menu-item#department-1-category-7",
+      "menu-item#department-1-category-8",
+      "menu-item#department-1-category-9",
+      "menu-item#department-1-category-10",
+      "menu-item#department-1-category-11",
+      "menu-item#department-1-category-12",
+      "menu-item#department-1-category-13",
+      "menu-item#department-1-category-14",
+      "menu-item#department-1-category-15"
     ]
   },
-  "menu-item#category-1-subcategory-1": {
+  "menu-item#department-1-category-1": {
     "props": {
-      "id": "menu-item-subcategory-1",
+      "id": "menu-item-department-1-category-1",
       "type": "custom",
       "iconId": null,
-      "tagTitle": "Subcategory 1",
       "highlight": false,
       "itemProps": {
         "type": "internal",
         "href": "/about-us",
         "noFollow": true,
-        "tagTitle": "Cat 1 Sub 1",
-        "text": "Cat 1 Sub 1"
+        "tagTitle": "Department 1 Category 1",
+        "text": "Department 1 Category 1"
       }
     }
   },
-  "menu-item#category-1-subcategory-2": {
+  "menu-item#department-1-category-2": {
     "props": {
-      "id": "menu-item-subcategory-2",
+      "id": "menu-item-department-1-category-2",
       "type": "custom",
       "iconId": null,
-      "tagTitle": "Subcategory 2",
       "highlight": false,
       "itemProps": {
         "type": "internal",
         "href": "/about-us",
         "noFollow": true,
-        "tagTitle": "Cat 1 Sub 2",
-        "text": "Cat 1 Sub 2"
+        "tagTitle": "Department 1 Category 2",
+        "text": "Department 1 Category 2"
       }
     }
   },
-  "flex-layout.col#category-1-submenu-col-2": {
+  "menu-item#department-1-category-3": {
+    "props": {
+      "id": "menu-item-department-1-category-3",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 1 Category 3",
+        "text": "Department 1 Category 3"
+      }
+    }
+  },
+  "menu-item#department-1-category-4": {
+    "props": {
+      "id": "menu-item-department-1-category-4",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 1 Category 4",
+        "text": "Department 1 Category 4"
+      }
+    }
+  },
+  "menu-item#department-1-category-5": {
+    "props": {
+      "id": "menu-item-department-1-category-5",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 1 Category 5",
+        "text": "Department 1 Category 5"
+      }
+    }
+  },
+  "menu-item#department-1-category-6": {
+    "props": {
+      "id": "menu-item-department-1-category-6",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 1 Category 6",
+        "text": "Department 1 Category 6"
+      }
+    }
+  },
+  "menu-item#department-1-category-7": {
+    "props": {
+      "id": "menu-item-department-1-category-7",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 1 Category 7",
+        "text": "Department 1 Category 7"
+      }
+    }
+  },
+  "menu-item#department-1-category-8": {
+    "props": {
+      "id": "menu-item-department-1-category-8",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 1 Category 8",
+        "text": "Department 1 Category 8"
+      }
+    }
+  },
+  "menu-item#department-1-category-9": {
+    "props": {
+      "id": "menu-item-department-1-category-9",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 1 Category 9",
+        "text": "Department 1 Category 9"
+      }
+    }
+  },
+  "menu-item#department-1-category-10": {
+    "props": {
+      "id": "menu-item-department-1-category-10",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 1 Category 10",
+        "text": "Department 1 Category 10"
+      }
+    }
+  },
+  "menu-item#department-1-category-11": {
+    "props": {
+      "id": "menu-item-department-1-category-11",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 1 Category 11",
+        "text": "Department 1 Category 11"
+      }
+    }
+  },
+  "menu-item#department-1-category-12": {
+    "props": {
+      "id": "menu-item-department-1-category-12",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 1 Category 12",
+        "text": "Department 1 Category 12"
+      }
+    }
+  },
+  "menu-item#department-1-category-13": {
+    "props": {
+      "id": "menu-item-department-1-category-13",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 1 Category 13",
+        "text": "Department 1 Category 13"
+      }
+    }
+  },
+  "menu-item#department-1-category-14": {
+    "props": {
+      "id": "menu-item-department-1-category-14",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 1 Category 14",
+        "text": "Department 1 Category 14"
+      }
+    }
+  },
+  "menu-item#department-1-category-15": {
+    "props": {
+      "id": "menu-item-department-1-category-15",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 1 Category 15",
+        "text": "Department 1 Category 15"
+      }
+    }
+  },
+  "flex-layout.col#department-1-submenu-col-2": {
     "children": [
-      "flex-layout.row#category-1-banner-1",
-      "flex-layout.row#category-1-banner-2",
-      "flex-layout.row#category-1-banner-3"
-    ]
+      "flex-layout.row#department-1-banner-1",
+      "flex-layout.row#department-1-banner-2"
+    ],
+    "title": "Right Category Banners"
   },
-  "flex-layout.row#category-1-banner-1": {
-    "children":["image#category-1-banner-1"],
+  "flex-layout.row#department-1-banner-1": {
+    "children":["image#department-1-banner-1"],
     "props": {
       }
   },
-  "image#category-1-banner-1":{
+  "image#department-1-banner-1":{
     "props":{
       "src": "/arquivos/Iogurt-CAT.png?v=637209216837170000",
       "maxHeight": 200
-    }
+    },
+    "title": "Top Banner"
   },
-  "flex-layout.row#category-1-banner-2": {
-    "children":["image#category-1-banner-2"],
+  "flex-layout.row#department-1-banner-2": {
+    "children":["image#department-1-banner-2"],
     "props": {
       }
   },
-  "image#category-1-banner-2":{
+  "image#department-1-banner-2":{
     "props":{
       "src": "/arquivos/Iogurt-CAT.png?v=637209216837170000",
       "maxHeight": 200
-    }
+    },
+    "title": "Bottom Banner"
   },
-  "flex-layout.row#category-1-banner-3": {
-    "children":["image#category-1-banner-3"],
+  "menu-item#department-2": {
     "props": {
-      }
-  },
-  "image#category-1-banner-3":{
-    "props":{
-      "src": "/arquivos/Iogurt-CAT.png?v=637209216837170000",
-      "maxHeight": 200
-    }
-  },
-  "menu-item#category-2": {
-    "props": {
-      "id": "menu-item-category-2",
+      "id": "menu-item-department-2",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -138,114 +345,2121 @@
         "type": "internal",
         "href": "#",
         "noFollow": true,
-        "tagTitle": "Cat 2",
-        "text": "Cat 2"
+        "tagTitle": "Department 2",
+        "text": "Department 2"
       }
     },
     "blocks": [
-      "vtex.menu@2.x:submenu#category-2"
+      "vtex.menu@2.x:submenu#department-2"
     ]
   },
-  "vtex.menu@2.x:submenu#category-2": {
+  "vtex.menu@2.x:submenu#department-2": {
     "props": {
       "width": "100%"
+      
     },
     "children": [
-      "flex-layout.row#category-2-submenu"
+      "flex-layout.row#department-2-submenu"
     ]
   },
-  "flex-layout.row#category-2-submenu": {
+  "flex-layout.row#department-2-submenu": {
     "children": [
-      "flex-layout.col#category-2-submenu-col-1",
-      "flex-layout.col#category-2-submenu-col-2"
+      "flex-layout.col#department-2-submenu-col-1",
+      "flex-layout.col#department-2-submenu-col-2"
     ]
   },
-  "flex-layout.col#category-2-submenu-col-1": {
+  "flex-layout.col#department-2-submenu-col-1": {
     "children": [
-      "vtex.menu@2.x:menu#category-2-submenu"
-
-    ]
+      "vtex.menu@2.x:menu#department-2-submenu"
+    ],
+    "title": "Left Category Links"
   },
-  "vtex.menu@2.x:menu#category-2-submenu": {
+  "vtex.menu@2.x:menu#department-2-submenu": {
     "props": {
       "orientation": "vertical",
       "tagTitle": "Submenu"
     },
     "children": [
-      "menu-item#category-2-subcategory-1",
-      "menu-item#category-2-subcategory-2"
+      "menu-item#department-2-category-1",
+      "menu-item#department-2-category-2",
+      "menu-item#department-2-category-3",
+      "menu-item#department-2-category-4",
+      "menu-item#department-2-category-5",
+      "menu-item#department-2-category-6",
+      "menu-item#department-2-category-7",
+      "menu-item#department-2-category-8",
+      "menu-item#department-2-category-9",
+      "menu-item#department-2-category-10",
+      "menu-item#department-2-category-11",
+      "menu-item#department-2-category-12",
+      "menu-item#department-2-category-13",
+      "menu-item#department-2-category-14",
+      "menu-item#department-2-category-15"
     ]
   },
-  "menu-item#category-2-subcategory-1": {
+  "menu-item#department-2-category-1": {
     "props": {
-      "id": "menu-item-subcategory-1",
+      "id": "menu-item-department-2-category-1",
       "type": "custom",
-      "iconId": null,
-      "tagTitle": "Subcategory 1",
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/about-us",
-        "noFollow": true,
-        "tagTitle": "Cat 2 Sub 1",
-        "text": "Cat 2 Sub 1"
-      }
-    }
-  },
-  "menu-item#category-2-subcategory-2": {
-    "props": {
-      "id": "menu-item-subcategory-2",
-      "type": "custom",
-      "tagTitle": "Subcategory 2",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
         "href": "/about-us",
         "noFollow": true,
-        "tagTitle": "Cat 2 Sub 2",
-        "text": "Cat 2 Sub 2"
+        "tagTitle": "Department 2 Category 1",
+        "text": "Department 2 Category 1"
       }
     }
   },
-  "flex-layout.col#category-2-submenu-col-2": {
+  "menu-item#department-2-category-2": {
+    "props": {
+      "id": "menu-item-department-2-category-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 2 Category 2",
+        "text": "Department 2 Category 2"
+      }
+    }
+  },
+  "menu-item#department-2-category-3": {
+    "props": {
+      "id": "menu-item-department-2-category-3",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 2 Category 3",
+        "text": "Department 2 Category 3"
+      }
+    }
+  },
+  "menu-item#department-2-category-4": {
+    "props": {
+      "id": "menu-item-department-2-category-4",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 2 Category 4",
+        "text": "Department 2 Category 4"
+      }
+    }
+  },
+  "menu-item#department-2-category-5": {
+    "props": {
+      "id": "menu-item-department-2-category-5",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 2 Category 5",
+        "text": "Department 2 Category 5"
+      }
+    }
+  },
+  "menu-item#department-2-category-6": {
+    "props": {
+      "id": "menu-item-department-2-category-6",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 2 Category 6",
+        "text": "Department 2 Category 6"
+      }
+    }
+  },
+  "menu-item#department-2-category-7": {
+    "props": {
+      "id": "menu-item-department-2-category-7",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 2 Category 7",
+        "text": "Department 2 Category 7"
+      }
+    }
+  },
+  "menu-item#department-2-category-8": {
+    "props": {
+      "id": "menu-item-department-2-category-8",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 2 Category 8",
+        "text": "Department 2 Category 8"
+      }
+    }
+  },
+  "menu-item#department-2-category-9": {
+    "props": {
+      "id": "menu-item-department-2-category-9",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 2 Category 9",
+        "text": "Department 2 Category 9"
+      }
+    }
+  },
+  "menu-item#department-2-category-10": {
+    "props": {
+      "id": "menu-item-department-2-category-10",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 2 Category 10",
+        "text": "Department 2 Category 10"
+      }
+    }
+  },
+  "menu-item#department-2-category-11": {
+    "props": {
+      "id": "menu-item-deparment-2-category-11",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 2 Category 11",
+        "text": "Department 2 Category 11"
+      }
+    }
+  },
+  "menu-item#department-2-category-12": {
+    "props": {
+      "id": "menu-item-deparment-2-category-12",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 2 Category 12",
+        "text": "Department 2 Category 12"
+      }
+    }
+  },
+  "menu-item#department-2-category-13": {
+    "props": {
+      "id": "menu-item-deparment-2-category-13",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 2 Category 13",
+        "text": "Department 2 Category 13"
+      }
+    }
+  },
+  "menu-item#department-2-category-14": {
+    "props": {
+      "id": "menu-item-deparment-2-category-14",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 2 Category 14",
+        "text": "Department 2 Category 14"
+      }
+    }
+  },
+  "menu-item#department-2-category-15": {
+    "props": {
+      "id": "menu-item-deparment-2-category-15",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 2 Category 15",
+        "text": "Department 2 Category 15"
+      }
+    }
+  },
+  "flex-layout.col#department-2-submenu-col-2": {
     "children": [
-      "flex-layout.row#category-2-banner-1",
-      "flex-layout.row#category-2-banner-2",
-      "flex-layout.row#category-2-banner-3"
+      "flex-layout.row#department-2-banner-1",
+      "flex-layout.row#department-2-banner-2"
+    ],
+    "title": "Right Category Banners"
+  },
+  "flex-layout.row#department-2-banner-1": {
+    "children":["image#department-2-banner-1"],
+    "props": {
+      }
+  },
+  "image#department-2-banner-1":{
+    "props":{
+      "src": "/arquivos/Iogurt-CAT.png?v=637209216837170000",
+      "maxHeight": 200
+    },
+    "title": "Top Banner"
+  },
+  "flex-layout.row#department-2-banner-2": {
+    "children":["image#department-2-banner-2"],
+    "props": {
+      }
+  },
+  "image#department-2-banner-2":{
+    "props":{
+      "src": "/arquivos/Iogurt-CAT.png?v=637209216837170000",
+      "maxHeight": 200
+    },
+    "title": "Bottom Banner"
+  },
+  "menu-item#department-3": {
+    "props": {
+      "id": "menu-item-department-3",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Department 3",
+        "text": "Department 3"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#department-3"
     ]
   },
-  "flex-layout.row#category-2-banner-1": {
-    "children":["image#category-2-banner-1"],
+  "vtex.menu@2.x:submenu#department-3": {
+    "props": {
+      "width": "100%"
+      
+    },
+    "children": [
+      "flex-layout.row#department-3-submenu"
+    ]
+  },
+  "flex-layout.row#department-3-submenu": {
+    "children": [
+      "flex-layout.col#department-3-submenu-col-1",
+      "flex-layout.col#department-3-submenu-col-2"
+    ]
+  },
+  "flex-layout.col#department-3-submenu-col-1": {
+    "children": [
+      "vtex.menu@2.x:menu#department-3-submenu"
+    ],
+    "title": "Left Category Links"
+  },
+  "vtex.menu@2.x:menu#department-3-submenu": {
+    "props": {
+      "orientation": "vertical",
+      "tagTitle": "Submenu"
+    },
+    "children": [
+      "menu-item#department-3-category-1",
+      "menu-item#department-3-category-2",
+      "menu-item#department-3-category-3",
+      "menu-item#department-3-category-4",
+      "menu-item#department-3-category-5",
+      "menu-item#department-3-category-6",
+      "menu-item#department-3-category-7",
+      "menu-item#department-3-category-8",
+      "menu-item#department-3-category-9",
+      "menu-item#department-3-category-10"
+    ]
+  },
+  "menu-item#department-3-category-1": {
+    "props": {
+      "id": "menu-item-department-3-category-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 3 Category 1",
+        "text": "Department 3 Category 1"
+      }
+    }
+  },
+  "menu-item#department-3-category-2": {
+    "props": {
+      "id": "menu-item-department-3-category-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 3 Category 2",
+        "text": "Department 3 Category 2"
+      }
+    }
+  },
+  "menu-item#department-3-category-3": {
+    "props": {
+      "id": "menu-item-department-3-category-3",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 3 Category 3",
+        "text": "Department 3 Category 3"
+      }
+    }
+  },
+  "menu-item#department-3-category-4": {
+    "props": {
+      "id": "menu-item-department-3-category-4",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 3 Category 4",
+        "text": "Department 3 Category 4"
+      }
+    }
+  },
+  "menu-item#department-3-category-5": {
+    "props": {
+      "id": "menu-item-department-3-category-5",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 3 Category 5",
+        "text": "Department 3 Category 5"
+      }
+    }
+  },
+  "menu-item#department-3-category-6": {
+    "props": {
+      "id": "menu-item-department-3-category-6",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 3 Category 6",
+        "text": "Department 3 Category 6"
+      }
+    }
+  },
+  "menu-item#department-3-category-7": {
+    "props": {
+      "id": "menu-item-department-3-category-7",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 3 Category 7",
+        "text": "Department 3 Category 7"
+      }
+    }
+  },
+  "menu-item#department-3-category-8": {
+    "props": {
+      "id": "menu-item-department-3-category-8",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 3 Category 8",
+        "text": "Department 3 Category 8"
+      }
+    }
+  },
+  "menu-item#department-3-category-9": {
+    "props": {
+      "id": "menu-item-department-3-category-9",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 3 Category 9",
+        "text": "Department 3 Category 9"
+      }
+    }
+  },
+  "menu-item#department-3-category-10": {
+    "props": {
+      "id": "menu-item-department-3-category-10",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Department 3 Category 10",
+        "text": ""
+      }
+    }
+  },
+  "flex-layout.col#department-3-submenu-col-2": {
+    "children": [
+      "flex-layout.row#department-3-banner-1",
+      "flex-layout.row#department-3-banner-2"
+    ],
+    "title": "Right Category Banners"
+  },
+  "flex-layout.row#department-3-banner-1": {
+    "children":["image#department-3-banner-1"],
     "props": {
       }
   },
-  "image#category-2-banner-1":{
+  "image#department-3-banner-1":{
     "props":{
       "src": "/arquivos/Iogurt-CAT.png?v=637209216837170000",
       "maxHeight": 200
-    }
+    },
+    "title": "Top Banner"
   },
-  "flex-layout.row#category-2-banner-2": {
-    "children":["image#category-2-banner-2"],
+  "flex-layout.row#department-3-banner-2": {
+    "children":["image#department-3-banner-2"],
     "props": {
       }
   },
-  "image#category-2-banner-2":{
+  "image#department-3-banner-2":{
     "props":{
       "src": "/arquivos/Iogurt-CAT.png?v=637209216837170000",
       "maxHeight": 200
+    },
+    "title": "Bottom Banner"
+  },
+  "menu-item#department-4": {
+    "props": {
+      "id": "menu-item-department-4",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Department 4",
+        "text": "Department 4"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#department-4"
+    ]
+  },
+  "vtex.menu@2.x:submenu#department-4": {
+    "props": {
+      "width": "100%"
+      
+    },
+    "children": [
+      "flex-layout.row#department-4-submenu"
+    ]
+  },
+  "flex-layout.row#department-4-submenu": {
+    "children": [
+      "flex-layout.col#department-4-submenu-col-1",
+      "flex-layout.col#department-4-submenu-col-2"
+    ]
+  },
+  "flex-layout.col#department-4-submenu-col-1": {
+    "children": [
+      "vtex.menu@2.x:menu#department-4-submenu"
+    ],
+    "title": "Left Category Links"
+  },
+  "vtex.menu@2.x:menu#department-4-submenu": {
+    "props": {
+      "orientation": "vertical",
+      "tagTitle": "Submenu"
+    },
+    "children": [
+      "menu-item#department-4-category-1",
+      "menu-item#department-4-category-2",
+      "menu-item#department-4-category-3",
+      "menu-item#department-4-category-4",
+      "menu-item#department-4-category-5",
+      "menu-item#department-4-category-6",
+      "menu-item#department-4-category-7",
+      "menu-item#department-4-category-8",
+      "menu-item#department-4-category-9",
+      "menu-item#department-4-category-10"
+    ]
+  },
+  "menu-item#department-4-category-1": {
+    "props": {
+      "id": "menu-item-department-4-category-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 4 Category 1",
+        "text": "Department 4 Category 1"
+      }
     }
   },
-  "flex-layout.row#category-2-banner-3": {
-    "children":["image#category-2-banner-3"],
+  "menu-item#department-4-category-2": {
+    "props": {
+      "id": "menu-item-department-4-category-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 4 Category 2",
+        "text": "Department 4 Category 2"
+      }
+    }
+  },
+  "menu-item#department-4-category-3": {
+    "props": {
+      "id": "menu-item-department-4-category-3",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 4 Category 3",
+        "text": "Department 4 Category 3"
+      }
+    }
+  },
+  "menu-item#department-4-category-4": {
+    "props": {
+      "id": "menu-item-department-4-category-4",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 4 Category 4",
+        "text": "Department 4 Category 4"
+      }
+    }
+  },
+  "menu-item#department-4-category-5": {
+    "props": {
+      "id": "menu-item-department-4-category-5",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 4 Category 5",
+        "text": "Department 4 Category 5"
+      }
+    }
+  },
+  "menu-item#department-4-category-6": {
+    "props": {
+      "id": "menu-item-department-4-category-6",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 4 Category 6",
+        "text": "Department 4 Category 6"
+      }
+    }
+  },
+  "menu-item#department-4-category-7": {
+    "props": {
+      "id": "menu-item-department-4-category-7",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 4 Category 7",
+        "text": "Department 4 Category 7"
+      }
+    }
+  },
+  "menu-item#department-4-category-8": {
+    "props": {
+      "id": "menu-item-department-4-category-8",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 4 Category 8",
+        "text": "Department 4 Category 8"
+      }
+    }
+  },
+  "menu-item#department-4-category-9": {
+    "props": {
+      "id": "menu-item-department-4-category-9",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Department 4 Category 9",
+        "text": ""
+      }
+    }
+  },
+  "menu-item#department-4-category-10": {
+    "props": {
+      "id": "menu-item-department-4-category-10",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Department 4 Category 10",
+        "text": ""
+      }
+    }
+  },
+  "flex-layout.col#department-4-submenu-col-2": {
+    "children": [
+      "flex-layout.row#department-4-banner-1",
+      "flex-layout.row#department-4-banner-2"
+    ],
+    "title": "Right Category Banners"
+  },
+  "flex-layout.row#department-4-banner-1": {
+    "children":["image#department-4-banner-1"],
     "props": {
       }
   },
-  "image#category-2-banner-3":{
+  "image#department-4-banner-1":{
     "props":{
       "src": "/arquivos/Iogurt-CAT.png?v=637209216837170000",
       "maxHeight": 200
+    },
+    "title": "Top Banner"
+  },
+  "flex-layout.row#department-4-banner-2": {
+    "children":["image#department-4-banner-2"],
+    "props": {
+      }
+  },
+  "image#department-4-banner-2":{
+    "props":{
+      "src": "/arquivos/Iogurt-CAT.png?v=637209216837170000",
+      "maxHeight": 200
+    },
+    "title": "Bottom Banner"
+  },
+  "menu-item#department-5": {
+    "props": {
+      "id": "menu-item-department-5",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Department 5",
+        "text": "Department 5"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#department-5"
+    ]
+  },
+  "vtex.menu@2.x:submenu#department-5": {
+    "props": {
+      "width": "100%"
+      
+    },
+    "children": [
+      "flex-layout.row#department-5-submenu"
+    ]
+  },
+  "flex-layout.row#department-5-submenu": {
+    "children": [
+      "flex-layout.col#department-5-submenu-col-1",
+      "flex-layout.col#department-5-submenu-col-2"
+    ]
+  },
+  "flex-layout.col#department-5-submenu-col-1": {
+    "children": [
+      "vtex.menu@2.x:menu#department-5-submenu"
+    ],
+    "title": "Left Category Links"
+  },
+  "vtex.menu@2.x:menu#department-5-submenu": {
+    "props": {
+      "orientation": "vertical",
+      "tagTitle": "Submenu"
+    },
+    "children": [
+      "menu-item#department-5-category-1",
+      "menu-item#department-5-category-2",
+      "menu-item#department-5-category-3",
+      "menu-item#department-5-category-4",
+      "menu-item#department-5-category-5",
+      "menu-item#department-5-category-6",
+      "menu-item#department-5-category-7",
+      "menu-item#department-5-category-8",
+      "menu-item#department-5-category-9",
+      "menu-item#department-5-category-10"
+    ]
+  },
+  "menu-item#department-5-category-1": {
+    "props": {
+      "id": "menu-item-department-5-category-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 5 Category 1",
+        "text": "Department 5 Category 1"
+      }
     }
+  },
+  "menu-item#department-5-category-2": {
+    "props": {
+      "id": "menu-item-department-5-category-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 5 Category 2",
+        "text": "Department 5 Category 2"
+      }
+    }
+  },
+  "menu-item#department-5-category-3": {
+    "props": {
+      "id": "menu-item-department-5-category-3",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 5 Category 3",
+        "text": "Department 5 Category 3"
+      }
+    }
+  },
+  "menu-item#department-5-category-4": {
+    "props": {
+      "id": "menu-item-department-5-category-4",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 5 Category 4",
+        "text": "Department 5 Category 4"
+      }
+    }
+  },
+  "menu-item#department-5-category-5": {
+    "props": {
+      "id": "menu-item-department-5-category-5",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 5 Category 5",
+        "text": "Department 5 Category 5"
+      }
+    }
+  },
+  "menu-item#department-5-category-6": {
+    "props": {
+      "id": "menu-item-department-5-category-6",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 5 Category 6",
+        "text": "Department 5 Category 6"
+      }
+    }
+  },
+  "menu-item#department-5-category-7": {
+    "props": {
+      "id": "menu-item-department-5-category-7",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 5 Category 7",
+        "text": "Department 5 Category 7"
+      }
+    }
+  },
+  "menu-item#department-5-category-8": {
+    "props": {
+      "id": "menu-item-department-5-category-8",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 5 Category 8",
+        "text": "Department 5 Category 8"
+      }
+    }
+  },
+  "menu-item#department-5-category-9": {
+    "props": {
+      "id": "menu-item-department-5-category-9",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 5 Category 9",
+        "text": "Department 5 Category 9"
+      }
+    }
+  },
+  "menu-item#department-5-category-10": {
+    "props": {
+      "id": "menu-item-department-5-category-10",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Department 5 Category 10",
+        "text": ""
+      }
+    }
+  },
+  "flex-layout.col#department-5-submenu-col-2": {
+    "children": [
+      "flex-layout.row#department-5-banner-1",
+      "flex-layout.row#department-5-banner-2"
+    ],
+    "title": "Right Category Banners"
+  },
+  "flex-layout.row#department-5-banner-1": {
+    "children":["image#department-5-banner-1"],
+    "props": {
+      }
+  },
+  "image#department-5-banner-1":{
+    "props":{
+      "src": "/arquivos/Iogurt-CAT.png?v=637209216837170000",
+      "maxHeight": 200
+    },
+    "title": "Top Banner"
+  },
+  "flex-layout.row#department-5-banner-2": {
+    "children":["image#department-5-banner-2"],
+    "props": {
+      }
+  },
+  "image#department-5-banner-2":{
+    "props":{
+      "src": "/arquivos/Iogurt-CAT.png?v=637209216837170000",
+      "maxHeight": 200
+    },
+    "title": "Bottom Banner"
+  },
+  "menu-item#department-6": {
+    "props": {
+      "id": "menu-item-department-6",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Department 6",
+        "text": "Department 6"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#department-6"
+    ]
+  },
+  "vtex.menu@2.x:submenu#department-6": {
+    "props": {
+      "width": "100%"
+      
+    },
+    "children": [
+      "flex-layout.row#department-6-submenu"
+    ]
+  },
+  "flex-layout.row#department-6-submenu": {
+    "children": [
+      "flex-layout.col#department-6-submenu-col-1",
+      "flex-layout.col#department-6-submenu-col-2"
+    ]
+  },
+  "flex-layout.col#department-6-submenu-col-1": {
+    "children": [
+      "vtex.menu@2.x:menu#department-6-submenu"
+    ],
+    "title": "Left Category Links"
+  },
+  "vtex.menu@2.x:menu#department-6-submenu": {
+    "props": {
+      "orientation": "vertical",
+      "tagTitle": "Submenu"
+    },
+    "children": [
+      "menu-item#department-6-category-1",
+      "menu-item#department-6-category-2",
+      "menu-item#department-6-category-3",
+      "menu-item#department-6-category-4",
+      "menu-item#department-6-category-5",
+      "menu-item#department-6-category-6",
+      "menu-item#department-6-category-7",
+      "menu-item#department-6-category-8",
+      "menu-item#department-6-category-9",
+      "menu-item#department-6-category-10"
+    ]
+  },
+  "menu-item#department-6-category-1": {
+    "props": {
+      "id": "menu-item-department-6-category-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 6 Category 1",
+        "text": "Department 6 Category 1"
+      }
+    }
+  },
+  "menu-item#department-6-category-2": {
+    "props": {
+      "id": "menu-item-department-6-category-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 6 Category 2",
+        "text": "Department 6 Category 2"
+      }
+    }
+  },
+  "menu-item#department-6-category-3": {
+    "props": {
+      "id": "menu-item-department-6-category-3",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 6 Category 3",
+        "text": "Department 6 Category 3"
+      }
+    }
+  },
+  "menu-item#department-6-category-4": {
+    "props": {
+      "id": "menu-item-department-6-category-4",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 6 Category 4",
+        "text": "Department 6 Category 4"
+      }
+    }
+  },
+  "menu-item#department-6-category-5": {
+    "props": {
+      "id": "menu-item-department-6-category-5",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 6 Category 5",
+        "text": "Department 6 Category 5"
+      }
+    }
+  },
+  "menu-item#department-6-category-6": {
+    "props": {
+      "id": "menu-item-department-6-category-6",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Department 6 Category 6",
+        "text": ""
+      }
+    }
+  },
+  "menu-item#department-6-category-7": {
+    "props": {
+      "id": "menu-item-department-6-category-7",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Department 6 Category 7",
+        "text": ""
+      }
+    }
+  },
+  "menu-item#department-6-category-8": {
+    "props": {
+      "id": "menu-item-department-6-category-8",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Department 6 Category 8",
+        "text": ""
+      }
+    }
+  },
+  "menu-item#department-6-category-9": {
+    "props": {
+      "id": "menu-item-department-6-category-9",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Department 6 Category 9",
+        "text": ""
+      }
+    }
+  },
+  "menu-item#department-6-category-10": {
+    "props": {
+      "id": "menu-item-department-6-category-10",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Department 6 Category 10",
+        "text": ""
+      }
+    }
+  },
+  "flex-layout.col#department-6-submenu-col-2": {
+    "children": [
+      "flex-layout.row#department-6-banner-1",
+      "flex-layout.row#department-6-banner-2"
+    ],
+    "title": "Right Category Banners"
+  },
+  "flex-layout.row#department-6-banner-1": {
+    "children":["image#department-6-banner-1"],
+    "props": {
+      }
+  },
+  "image#department-6-banner-1":{
+    "props":{
+      "src": "/arquivos/Iogurt-CAT.png?v=637209216837170000",
+      "maxHeight": 200
+    },
+    "title": "Top Banner"
+  },
+  "flex-layout.row#department-6-banner-2": {
+    "children":["image#department-6-banner-2"],
+    "props": {
+      }
+  },
+  "image#department-6-banner-2":{
+    "props":{
+      "src": "/arquivos/Iogurt-CAT.png?v=637209216837170000",
+      "maxHeight": 200
+    },
+    "title": "Bottom Banner"
+  },
+  "menu-item#department-7": {
+    "props": {
+      "id": "menu-item-department-7",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Department 7",
+        "text": "Department 7"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#department-7"
+    ]
+  },
+  "vtex.menu@2.x:submenu#department-7": {
+    "props": {
+      "width": "100%"
+      
+    },
+    "children": [
+      "flex-layout.row#department-7-submenu"
+    ]
+  },
+  "flex-layout.row#department-7-submenu": {
+    "children": [
+      "flex-layout.col#department-7-submenu-col-1",
+      "flex-layout.col#department-7-submenu-col-2"
+    ]
+  },
+  "flex-layout.col#department-7-submenu-col-1": {
+    "children": [
+      "vtex.menu@2.x:menu#department-7-submenu"
+    ],
+    "title": "Left Category Links"
+  },
+  "vtex.menu@2.x:menu#department-7-submenu": {
+    "props": {
+      "orientation": "vertical",
+      "tagTitle": "Submenu"
+    },
+    "children": [
+      "menu-item#department-7-category-1",
+      "menu-item#department-7-category-2",
+      "menu-item#department-7-category-3",
+      "menu-item#department-7-category-4",
+      "menu-item#department-7-category-5",
+      "menu-item#department-7-category-6",
+      "menu-item#department-7-category-7",
+      "menu-item#department-7-category-8",
+      "menu-item#department-7-category-9",
+      "menu-item#department-7-category-10",
+      "menu-item#department-7-category-11",
+      "menu-item#department-7-category-12",
+      "menu-item#department-7-category-13",
+      "menu-item#department-7-category-14",
+      "menu-item#department-7-category-15",
+      "menu-item#department-7-category-16"
+    ]
+  },
+  "menu-item#department-7-category-1": {
+    "props": {
+      "id": "menu-item-department-7-category-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 7 Category 1",
+        "text": "Department 7 Category 1"
+      }
+    }
+  },
+  "menu-item#department-7-category-2": {
+    "props": {
+      "id": "menu-item-department-7-category-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 7 Category 2",
+        "text": "Department 7 Category 2"
+      }
+    }
+  },
+  "menu-item#department-7-category-3": {
+    "props": {
+      "id": "menu-item-department-7-category-3",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 7 Category 3",
+        "text": "Department 7 Category 3"
+      }
+    }
+  },
+  "menu-item#department-7-category-4": {
+    "props": {
+      "id": "menu-item-department-7-category-4",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 7 Category 4",
+        "text": "Department 7 Category 4"
+      }
+    }
+  },
+  "menu-item#department-7-category-5": {
+    "props": {
+      "id": "menu-item-department-7-category-5",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 7 Category 5",
+        "text": "Department 7 Category 5"
+      }
+    }
+  },
+  "menu-item#department-7-category-6": {
+    "props": {
+      "id": "menu-item-department-7-category-6",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 7 Category 6",
+        "text": "Department 7 Category 6"
+      }
+    }
+  },
+  "menu-item#department-7-category-7": {
+    "props": {
+      "id": "menu-item-department-7-category-7",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 7 Category 7",
+        "text": "Department 7 Category 7"
+      }
+    }
+  },
+  "menu-item#department-7-category-8": {
+    "props": {
+      "id": "menu-item-department-7-category-8",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 7 Category 8",
+        "text": "Department 7 Category 8"
+      }
+    }
+  },
+  "menu-item#department-7-category-9": {
+    "props": {
+      "id": "menu-item-department-7-category-9",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 7 Category 9",
+        "text": "Department 7 Category 9"
+      }
+    }
+  },
+  "menu-item#department-7-category-10": {
+    "props": {
+      "id": "menu-item-department-7-category-10",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 7 Category 10",
+        "text": "Department 7 Category 10"
+      }
+    }
+  },
+  "menu-item#department-7-category-11": {
+    "props": {
+      "id": "menu-item-department-7-category-11",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 7 Category 11",
+        "text": "Department 7 Category 11"
+      }
+    }
+  },
+  "menu-item#department-7-category-12": {
+    "props": {
+      "id": "menu-item-department-7-category-12",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 7 Category 12",
+        "text": "Department 7 Category 12"
+      }
+    }
+  },
+  "menu-item#department-7-category-13": {
+    "props": {
+      "id": "menu-item-department-7-category-13",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 7 Category 13",
+        "text": "Department 7 Category 13"
+      }
+    }
+  },
+  "menu-item#department-7-category-14": {
+    "props": {
+      "id": "menu-item-department-7-category-14",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 7 Category 14",
+        "text": "Department 7 Category 14"
+      }
+    }
+  },
+  "menu-item#department-7-category-15": {
+    "props": {
+      "id": "menu-item-department-7-category-15",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 7 Category 15",
+        "text": "Department 7 Category 15"
+      }
+    }
+  },
+  "menu-item#department-7-category-16": {
+    "props": {
+      "id": "menu-item-department-7-category-16",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 7 Category 16",
+        "text": "Department 7 Category 16"
+      }
+    }
+  },
+  "flex-layout.col#department-7-submenu-col-2": {
+    "children": [
+      "flex-layout.row#department-7-banner-1",
+      "flex-layout.row#department-7-banner-2"
+    ],
+    "title": "Right Category Banners"
+  },
+  "flex-layout.row#department-7-banner-1": {
+    "children":["image#department-7-banner-1"],
+    "props": {
+      }
+  },
+  "image#department-7-banner-1":{
+    "props":{
+      "src": "/arquivos/Iogurt-CAT.png?v=637209216837170000",
+      "maxHeight": 200
+    },
+    "title": "Top Banner"
+  },
+  "flex-layout.row#department-7-banner-2": {
+    "children":["image#department-7-banner-2"],
+    "props": {
+      }
+  },
+  "image#department-7-banner-2":{
+    "props":{
+      "src": "/arquivos/Iogurt-CAT.png?v=637209216837170000",
+      "maxHeight": 200
+    },
+    "title": "Bottom Banner"
+  },
+  "menu-item#department-8": {
+    "props": {
+      "id": "menu-item-department-8",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Department 8",
+        "text": "Department 8"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#department-8"
+    ]
+  },
+  "vtex.menu@2.x:submenu#department-8": {
+    "props": {
+      "width": "100%"
+      
+    },
+    "children": [
+      "flex-layout.row#department-8-submenu"
+    ]
+  },
+  "flex-layout.row#department-8-submenu": {
+    "children": [
+      "flex-layout.col#department-8-submenu-col-1",
+      "flex-layout.col#department-8-submenu-col-2"
+    ]
+  },
+  "flex-layout.col#department-8-submenu-col-1": {
+    "children": [
+      "vtex.menu@2.x:menu#department-8-submenu"
+    ],
+    "title": "Left Category Links"
+  },
+  "vtex.menu@2.x:menu#department-8-submenu": {
+    "props": {
+      "orientation": "vertical",
+      "tagTitle": "Submenu"
+    },
+    "children": [
+      "menu-item#department-8-category-1",
+      "menu-item#department-8-category-2",
+      "menu-item#department-8-category-3",
+      "menu-item#department-8-category-4",
+      "menu-item#department-8-category-5",
+      "menu-item#department-8-category-6",
+      "menu-item#department-8-category-7",
+      "menu-item#department-8-category-8",
+      "menu-item#department-8-category-9",
+      "menu-item#department-8-category-10"
+    ]
+  },
+  "menu-item#department-8-category-1": {
+    "props": {
+      "id": "menu-item-department-8-category-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 8 Category 1",
+        "text": "Department 8 Category 1"
+      }
+    }
+  },
+  "menu-item#department-8-category-2": {
+    "props": {
+      "id": "menu-item-department-8-category-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 8 Category 2",
+        "text": "Department 8 Category 2"
+      }
+    }
+  },
+  "menu-item#department-8-category-3": {
+    "props": {
+      "id": "menu-item-department-8-category-3",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 8 Category 3",
+        "text": "Department 8 Category 3"
+      }
+    }
+  },
+  "menu-item#department-8-category-4": {
+    "props": {
+      "id": "menu-item-department-8-category-4",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 8 Category 4",
+        "text": "Department 8 Category 4"
+      }
+    }
+  },
+  "menu-item#department-8-category-5": {
+    "props": {
+      "id": "menu-item-department-8-category-5",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 8 Category 5",
+        "text": "Department 8 Category 5"
+      }
+    }
+  },
+  "menu-item#department-8-category-6": {
+    "props": {
+      "id": "menu-item-department-8-category-6",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 8 Category 6",
+        "text": "Department 8 Category 6"
+      }
+    }
+  },
+  "menu-item#department-8-category-7": {
+    "props": {
+      "id": "menu-item-department-8-category-7",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 8 Category 7",
+        "text": "Department 8 Category 7"
+      }
+    }
+  },
+  "menu-item#department-8-category-8": {
+    "props": {
+      "id": "menu-item-department-8-category-8",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 8 Category 8",
+        "text": "Department 8 Category 8"
+      }
+    }
+  },
+  "menu-item#department-8-category-9": {
+    "props": {
+      "id": "menu-item-department-8-category-9",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Department 8 Category 9",
+        "text": ""
+      }
+    }
+  },
+  "menu-item#department-8-category-10": {
+    "props": {
+      "id": "menu-item-department-8-category-10",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Department 8 Category 10",
+        "text": ""
+      }
+    }
+  },
+  "flex-layout.col#department-8-submenu-col-2": {
+    "children": [
+      "flex-layout.row#department-8-banner-1",
+      "flex-layout.row#department-8-banner-2"
+    ],
+    "title": "Right Category Banners"
+  },
+  "flex-layout.row#department-8-banner-1": {
+    "children":["image#department-8-banner-1"],
+    "props": {
+      }
+  },
+  "image#department-8-banner-1":{
+    "props":{
+      "src": "/arquivos/Iogurt-CAT.png?v=637209216837170000",
+      "maxHeight": 200
+    },
+    "title": "Top Banner"
+  },
+  "flex-layout.row#department-8-banner-2": {
+    "children":["image#department-8-banner-2"],
+    "props": {
+      }
+  },
+  "image#department-8-banner-2":{
+    "props":{
+      "src": "/arquivos/Iogurt-CAT.png?v=637209216837170000",
+      "maxHeight": 200
+    },
+    "title": "Bottom Banner"
+  },
+  "menu-item#department-9": {
+    "props": {
+      "id": "menu-item-department-9",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Department 9",
+        "text": "Department 9"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#department-9"
+    ]
+  },
+  "vtex.menu@2.x:submenu#department-9": {
+    "props": {
+      "width": "100%"
+      
+    },
+    "children": [
+      "flex-layout.row#department-9-submenu"
+    ]
+  },
+  "flex-layout.row#department-9-submenu": {
+    "children": [
+      "flex-layout.col#department-9-submenu-col-1",
+      "flex-layout.col#department-9-submenu-col-2"
+    ]
+  },
+  "flex-layout.col#department-9-submenu-col-1": {
+    "children": [
+      "vtex.menu@2.x:menu#department-9-submenu"
+    ],
+    "title": "Left Category Links"
+  },
+  "vtex.menu@2.x:menu#department-9-submenu": {
+    "props": {
+      "orientation": "vertical",
+      "tagTitle": "Submenu"
+    },
+    "children": [
+      "menu-item#department-9-category-1",
+      "menu-item#department-9-category-2",
+      "menu-item#department-9-category-3",
+      "menu-item#department-9-category-4",
+      "menu-item#department-9-category-5",
+      "menu-item#department-9-category-6",
+      "menu-item#department-9-category-7",
+      "menu-item#department-9-category-8",
+      "menu-item#department-9-category-9",
+      "menu-item#department-9-category-10"
+    ]
+  },
+  "menu-item#department-9-category-1": {
+    "props": {
+      "id": "menu-item-department-9-category-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 9 Category 1",
+        "text": "Department 9 Category 1"
+      }
+    }
+  },
+  "menu-item#department-9-category-2": {
+    "props": {
+      "id": "menu-item-department-9-category-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 9 Category 2",
+        "text": "Department 9 Category 2"
+      }
+    }
+  },
+  "menu-item#department-9-category-3": {
+    "props": {
+      "id": "menu-item-department-9-category-3",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 9 Category 3",
+        "text": "Department 9 Category 3"
+      }
+    }
+  },
+  "menu-item#department-9-category-4": {
+    "props": {
+      "id": "menu-item-department-9-category-4",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 9 Category 4",
+        "text": "Department 9 Category 4"
+      }
+    }
+  },
+  "menu-item#department-9-category-5": {
+    "props": {
+      "id": "menu-item-department-9-category-5",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 9 Category 5",
+        "text": "Department 9 Category 5"
+      }
+    }
+  },
+  "menu-item#department-9-category-6": {
+    "props": {
+      "id": "menu-item-department-9-category-6",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 9 Category 6",
+        "text": "Department 9 Category 6"
+      }
+    }
+  },
+  "menu-item#department-9-category-7": {
+    "props": {
+      "id": "menu-item-department-9-category-7",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 9 Category 7",
+        "text": "Department 9 Category 7"
+      }
+    }
+  },
+  "menu-item#department-9-category-8": {
+    "props": {
+      "id": "menu-item-department-9-category-8",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Department 9 Category 8",
+        "text": "Department 9 Category 8"
+      }
+    }
+  },
+  "menu-item#department-9-category-9": {
+    "props": {
+      "id": "menu-item-department-9-category-9",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Department 9 Category 9",
+        "text": ""
+      }
+    }
+  },
+  "menu-item#department-9-category-10": {
+    "props": {
+      "id": "menu-item-department-9-category-10",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Department 9 Category 10",
+        "text": ""
+      }
+    }
+  },
+  "flex-layout.col#department-9-submenu-col-2": {
+    "children": [
+      "flex-layout.row#department-9-banner-1",
+      "flex-layout.row#department-9-banner-2"
+    ],
+    "title": "Right Category Banners"
+  },
+  "flex-layout.row#department-9-banner-1": {
+    "children":["image#department-9-banner-1"],
+    "props": {
+      }
+  },
+  "image#department-9-banner-1":{
+    "props":{
+      "src": "/arquivos/Iogurt-CAT.png?v=637209216837170000",
+      "maxHeight": 200
+    },
+    "title": "Top Banner"
+  },
+  "flex-layout.row#department-9-banner-2": {
+    "children":["image#department-9-banner-2"],
+    "props": {
+      }
+  },
+  "image#department-9-banner-2":{
+    "props":{
+      "src": "/arquivos/Iogurt-CAT.png?v=637209216837170000",
+      "maxHeight": 200
+    },
+    "title": "Bottom Banner"
+  },
+  "menu-item#department-10": {
+    "props": {
+      "id": "menu-item-deparment-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Department 10",
+        "text": "Department 10"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#department-10"
+    ]
+  },
+  "vtex.menu@2.x:submenu#department-10": {
+    "props": {
+      "width": "100%"
+      
+    },
+    "children": [
+      "info-card#promoheader"
+    ]
+  },
+  "flex-layout.row#department-10-submenu": {
+    "children": [
+      
+    ]
+  },
+  
+  "info-card#promoheader": {
+    "props": {
+      "id": "info-card-promoheader",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Mejores promos",
+      "callToActionText": "Navegar",
+      "callToActionUrl": "/promocions",
+      "blockClass": "info-card-home",
+      "textAlignment": "center"
+    },
+    "title": "Infocard Promotions"
   }
 }
