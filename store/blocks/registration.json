@@ -1,0 +1,19 @@
+{
+    "store.custom#registration": {
+      "blocks": [
+        "flex-layout.row#registration"
+      ]
+    },
+    "flex-layout.row#registration": {
+        "children": [
+            "rich-text#greeting"
+        ]
+    },
+    "rich-text#greeting": {
+        "props": {
+          "text":
+          "# Create meaningful and relevant experiences.",
+          "blockClass": "title"
+        }
+    }
+}
