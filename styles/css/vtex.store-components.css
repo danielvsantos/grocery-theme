@@ -11,7 +11,12 @@
   vertical-align: middle;
 }
 .searchBarContainer :global(.vtex-styleguide-9-x-input) {
-  max-width: 208px;
+  max-width: 800px;
+  min-width: 400px;
+}
+
+.searchBarContainer :global(.vtex-input-prefix__group) {
+  border:none;
 }
 
 .infoCardContainer--info-card-home {
