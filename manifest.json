@@ -1,7 +1,7 @@
 {
   "vendor": "ametllerorigen",
   "name": "store-theme",
-  "version": "3.34.2",
+  "version": "3.34.3",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
