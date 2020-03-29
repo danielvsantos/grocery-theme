@@ -46,24 +46,14 @@
     },
     "children": [
       "flex-layout.row#product-image",
-      "product-bookmark",
-      "product-specification-badges"
+      "product-bookmark"
     ]
-  },
-
-  "product-specification-badges": {
-    "props": {
-      "specificationGroupName": "allSpecifications",
-      "specificationName": "Allergens_0",
-      "displayValue": "SPECIFICATION_VALUE"
-    }
   },
   "flex-layout.row#product-specifications": {
     "children": [
-      "product-specifications#product"
+      "tab-layout#specifications"
     ]
   },
-
   "flex-layout.col#stack": {
     "children": ["stack-layout"],
     "props": {
@@ -100,7 +90,8 @@
       "flex-layout.row#buy-button",
       "availability-subscriber",
       "flex-layout.row#description",
-      "share#default"
+      "share#default",
+      "product-specification-badges"
     ]
   },
 
@@ -136,16 +127,17 @@
       }
     }
   },
+  "product-specification-badges": {
+    "props": {
+      "specificationGroupName": "allSpecifications",
+      "displayValue": "SPECIFICATION_NAME"
+    }
+  },
   "responsive-layout.mobile":{
     "children": [
       "flex-layout.row#product-breadcrumb",
       "flex-layout.row#product-main",
-      "flex-layout.row#product-specifications-mobile"
-    ]
-  },
-  "flex-layout.row#product-specifications-mobile": {
-    "children": [
-      "product-specifications#product-mobile"
+      "tab-layout#specifications"
     ]
   }
 }

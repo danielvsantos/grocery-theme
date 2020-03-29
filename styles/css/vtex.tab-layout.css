@@ -1,0 +1,7 @@
+@media screen and (min-width: 66em) {
+
+    .container--tabsSpecificaitons {
+        max-width: 60%;
+        margin: auto;
+    }
+}
