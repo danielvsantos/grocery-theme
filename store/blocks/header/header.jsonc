@@ -62,7 +62,7 @@
     "children": [
       "flex-layout.col#logo-desktop",
       "flex-layout.col#spacer",
-      "search-bar",
+      "flex-layout.col#search",
       "flex-layout.col#spacer",
       "locale-switcher",
       "login",
@@ -86,17 +86,24 @@
     },
     "title": "Only Logo"
   },
+  "flex-layout.col#search": {
+    "props": {
+      "verticalAlign": "middle",
+      "width":"grow"
+    },
+    "children": ["search-bar"],
+    "title": "Search Bar"
+  },
   "flex-layout.row#4-desktop":{
     "props": {
       "blockClass": "main-header-category-menu",
       "horizontalAlign": "center",
       "verticalAlign": "center",
       "preventHorizontalStretch": true,
-      "preventVerticalStretch": true,
-      "fullWidth": true
+      "preventVerticalStretch": true
     },
     "children": [
-      "vtex.menu@2.x:menu#category-menu"
+      "flex-layout.col#category-menu"
     ],
     "title": "Bottom Row"
   },
@@ -127,7 +134,7 @@
   },
   "flex-layout.row#2-mobile": {
     "children": [
-      "search-bar"
+      "flex-layout.col#search"
     ],
     "props": {
       "blockClass": "main-header-mobile-searchbar",

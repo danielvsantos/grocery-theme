@@ -1,4 +1,13 @@
 {
+  "flex-layout.col#category-menu": {
+    "props": {
+      "verticalAlign": "middle",
+      "width": 70
+    },
+    "children": ["vtex.menu@2.x:menu#category-menu"],
+    "title": "Category Menu"
+  },
+  
   "vtex.menu@2.x:menu#category-menu": {
     "props": {
       "experimentalOptimizeRendering": true
