@@ -1,26 +1,63 @@
+/* GENERAL */
+
+.container--link {
+  justify-content: center;
+}
+
+
+
+/* DEALS */
+
 .container--deals {
   color: #ffffff;
   text-align: center;
   justify-content: center;
 }
+.container--deals .paragraph {
+  margin: 0;
+}
+/* HOMEPAGE */
 
-.container--shelfTitle {
+.container--home-shelf-title {
   color: #727273;
   justify-content: center;
   text-align: center;
 }
 
-.headingLevel2--shelfTitle {
+.headingLevel2--home-shelf-title {
   font-weight: 200;
 }
 
-.container--deals .paragraph {
-  margin: 0;
+
+
+/* DEPARTMENT */
+
+.container--department-shelf-title {
+  color: #727273;
+  justify-content: center;
+  text-align: center;
 }
 
-.container--link {
-  justify-content: center;
+.headingLevel2--department-shelf-title {
+  font-weight: 800;
 }
+
+
+/* CATEGORY */
+
+.container--category-shelf-title {
+  color: #727273;
+  justify-content: center;
+  text-align: center;
+}
+
+.headingLevel2--category-shelf-title {
+  font-weight: 800;
+}
+
+
+
+
 
 .container--question {
   justify-content: center;

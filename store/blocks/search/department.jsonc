@@ -13,7 +13,9 @@
     "children": [
       "flex-layout.row#searchbread",
       "flex-layout.row#department-header",
-      "flex-layout.row#department-banner"
+      "flex-layout.row#department-brands",
+      "rich-text#department-shelf1-title",
+      "flex-layout.row#department-shelf1"
     ],
     "props": {
       "pagination": "show-more",
@@ -76,10 +78,39 @@
     },
     "title": "Department Description"
   },
-  "flex-layout.row#department-banner": {
+  "flex-layout.row#department-brands": {
     "children": [
     ]
+  },
+  "rich-text#department-shelf1-title": {
+    "props": {
+      "text": "## Categoria de Fruita",
+      "blockClass": "department-shelf-title"
+    },
+    "title": "DEPARTMENT - Top Shelf Title"
+  },
+  "flex-layout.row#department-shelf1": {
+    "children": ["list-context.product-list#department1"],
+    "title": "DEPARTMENT - Top Shelf"
+  },
+  "list-context.product-list#department1": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#department-shelf1"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    },
+    "title": "Shelf Configurations"
+  },
+  "slider-layout#department-shelf1": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": true,
+      "blockClass": "department-shelf"
+    }
   }
-
-
 }
