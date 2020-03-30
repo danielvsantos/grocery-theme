@@ -16,6 +16,20 @@
   }
 }
 
+
+/* Department */
+
+.flexRowContent--department-tile {
+  color: #3D350B;
+}
+
+/* Homepage */
+
+.flexCol--main-banner {
+  padding: 0 0 20px 9px;
+}
+
+/* Menu & Header */
 .flexRowContent--menu-link {
   background-color: #03044e;
   color: #fff;
@@ -44,6 +58,9 @@
   color: #3D350B;
   font-size: 14px;
 }
+
+/* Deals section */
+
 .flexRow--deals {
   background-color: #a7afbd;
   padding: 14px 0px;
@@ -57,10 +74,15 @@
   align-items: center;
 }
 
+/* General*/
+
 .flexCol--filterCol {
   max-width: 500px;
   min-width: 230px;
 }
+
+
+/* Search Result*/
 
 .flexCol--productCountCol {
   align-items: flex-start;
@@ -112,7 +134,4 @@
 }
 .flexRowContent--rowGalleryGrid {
   margin-bottom: 20px;
-}
-.flexCol--main-banner {
-  padding: 0 0 20px 9px;
 }

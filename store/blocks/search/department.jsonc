@@ -1,11 +1,85 @@
 {
-
   "store.search#department": {
     "blocks": [
-        "flex-layout.row#searchbread",
-        "search-title.v2",
-        "search-result-layout"
+        "search-result-layout#department"
+    ]
+  },
+  "search-result-layout#department":{
+      "blocks": [
+        "search-result-layout.desktop#department"
+      ]
+  },
+  "search-result-layout.desktop#department": {
+    "children": [
+      "flex-layout.row#searchbread",
+      "flex-layout.row#department-header",
+      "flex-layout.row#department-banner"
+    ],
+    "props": {
+      "pagination": "show-more",
+      "preventRouteChange": true,
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      }
+    }
+  },
+  "flex-layout.row#department-header": {
+    "children": [
+      "flex-layout.col#department-icon",
+      "flex-layout.col#department-title-description"
+    ]
+  },
+  "flex-layout.col#department-icon": {
+    "children": [
+      "image#department-icon"
+    ],
+    "props": {
+      "width": "25%",
+      "horizontalAlign": "center",
+      "verticalAlign": "top"
+    }
+  },
+  "image#department-icon": {
+    "props": {
+      "src": "https://www.ametllerorigen.com/arquivos/cat_fruita.png?v=636861699841970000"
+    },
+    "title": "Department Icon"
+  },
+  "flex-layout.col#department-title-description": {
+    "children": [
+      "flex-layout.row#department-title",
+      "flex-layout.row#department-description"
+    ],
+    "props": {
+      "width": "75%",
+      "horizontalAlign": "left"
+    }
+  },
+  "flex-layout.row#department-title": {
+    "children": [
+      "search-title.v2"
+    ],
+    "props": {
+      "blockClass": "department-tile"
+    }
+  },
+  "flex-layout.row#department-description": {
+    "children": [
+      "rich-text#department-description"
+    ]
+  },
+  "rich-text#department-description": {
+    "props": {
+      "text": "El nostre compromís amb la qualitat i la proximitat fan que conreem la major part de les nostres fruites de temporada com les Pomes, Peres, Raïms o Taronges en camps propis. Per a les fruites exòtiques i tropicals, com els Alvocats, Plàtans, Mangos, Kiwis i Cocos, treballem amb proveïdors de confiança. A més, també tenim una variada selecció de fruita seca i llavors, com a Festucs, Nous, Anacards o Ametlles.",
+      "blockClass": "department-description"
+    },
+    "title": "Department Description"
+  },
+  "flex-layout.row#department-banner": {
+    "children": [
     ]
   }
+
 
 }
