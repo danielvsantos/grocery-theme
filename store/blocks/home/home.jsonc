@@ -65,11 +65,11 @@
       "height": 720,
       "images": [
         {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/banner-principal.png",
+          "image": "https://storecomponents.vteximg.com.br/arquivos/banner.jpg",
           "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
         },
         {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/banner.jpg",
+          "src": "assets/homebannernewtry.png",
           "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
         }
       ]
@@ -97,7 +97,7 @@
   },
   "image#main-banner":{
     "props":{
-      "src": "/arquivos/Logo@3x.png?v=636947264585600000"
+      "src": "/assets/vtex.file-manager-graphql/images/logoNeu___95143a92821d96b04b502f1042a4bf3c.png"
     },
     "title": "Banner"
   },
