@@ -22,7 +22,8 @@
         "noFollow": false,
         "tagTitle": "News",
         "text": "News"
-      }
+      },
+      "blockClass": "links-footer"
     }
   },
   "menu-item#blackfriday": {
@@ -37,7 +38,8 @@
         "noFollow": false,
         "tagTitle": "BlackFriday",
         "text": "Black Friday"
-      }
+      },
+      "blockClass": "links-footer"
     }
   },
   "menu-item#sale": {
@@ -52,7 +54,8 @@
         "noFollow": false,
         "tagTitle": "Sale",
         "text": "Sale"
-      }
+      },
+      "blockClass": "links-footer"
     }
   },
   "menu-item#personalization": {
@@ -67,7 +70,8 @@
         "noFollow": false,
         "tagTitle": "Personalization",
         "text": "Personalization"
-      }
+      },
+      "blockClass": "links-footer"
     }
   },
 
@@ -94,7 +98,8 @@
         "noFollow": true,
         "tagTitle": "Smartphones",
         "text": "Smartphones"
-      }
+      },
+      "blockClass": "links-footer"
     }
   },
 
@@ -110,7 +115,8 @@
         "noFollow": true,
         "tagTitle": "Videogames",
         "text": "Videogames"
-      }
+      },
+      "blockClass": "links-footer"
     }
   },
 
@@ -126,7 +132,8 @@
         "noFollow": true,
         "tagTitle": "TVs",
         "text": "TVs"
-      }
+      },
+      "blockClass": "links-footer"
     }
   },
 
@@ -153,7 +160,8 @@
         "noFollow": true,
         "tagTitle": "Bags",
         "text": "Bags"
-      }
+      },
+      "blockClass": "links-footer"
     }
   },
 
@@ -169,7 +177,8 @@
         "noFollow": true,
         "tagTitle": "Backpacks",
         "text": "Backpacks"
-      }
+      },
+      "blockClass": "links-footer"
     }
   },
 
@@ -185,7 +194,8 @@
         "noFollow": true,
         "tagTitle": "Necessaire",
         "text": "Necessaire"
-      }
+      },
+      "blockClass": "links-footer"
     }
   },
 
@@ -226,7 +236,8 @@
         "noFollow": true,
         "tagTitle": "Clothing",
         "text": "Clothing"
-      }
+      },
+      "blockClass": "links-footer"
     },
     "blocks": ["vtex.menu@2.x:submenu.accordion#clothing"]
   },
@@ -276,7 +287,8 @@
       "itemProps": {
         "tagTitle": "Sale",
         "text": "Sale"
-      }
+      },
+      "blockClass": "links-footer"
     },
     "blocks": ["vtex.menu@2.x:submenu.accordion#sale"]
   },
@@ -307,7 +319,8 @@
         "noFollow": true,
         "tagTitle": "Clothing",
         "text": "Clothing"
-      }
+      },
+      "blockClass": "links-footer"
     }
   },
 
@@ -323,7 +336,8 @@
         "noFollow": false,
         "tagTitle": "Shorts",
         "text": "Shorts"
-      }
+      },
+      "blockClass": "links-footer"
     }
   },
 
@@ -339,7 +353,8 @@
         "noFollow": false,
         "tagTitle": "Tank tops",
         "text": "Tank tops"
-      }
+      },
+      "blockClass": "links-footer"
     }
   },
 
@@ -355,7 +370,8 @@
         "noFollow": false,
         "tagTitle": "Shirts",
         "text": "Shirts"
-      }
+      },
+      "blockClass": "links-footer"
     }
   },
 
@@ -371,7 +387,8 @@
         "noFollow": false,
         "tagTitle": "Sweatshirt",
         "text": "Sweatshirt"
-      }
+      },
+      "blockClass": "links-footer"
     }
   },
 
@@ -387,7 +404,8 @@
         "noFollow": false,
         "tagTitle": "Cropped",
         "text": "Cropped"
-      }
+      },
+      "blockClass": "links-footer"
     }
   }
 }

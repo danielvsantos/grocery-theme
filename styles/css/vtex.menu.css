@@ -1,4 +1,9 @@
 .submenuWrapper {
     max-width: 700px;
-  }
+}
+.styledLinkContent--links-footer {
+  color: #918470;
+  font-family: 'Lato';
+  font-style: bold;
+}
   
