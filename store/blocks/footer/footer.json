@@ -10,12 +10,13 @@
   },
   "flex-layout.row#footer-1-desktop": {
     "children": [
-      "vtex.menu@2.x:menu#Products",
+      "flex-layout.col#footer-1-desktop",
+      "footer-spacer",
       "vtex.menu@2.x:menu#footer-clothing",
       "vtex.menu@2.x:menu#footer-decoration",
       "vtex.menu@2.x:menu#footer-bags",
       "footer-spacer",
-      "flex-layout.col#footer-1-desktop"
+      "flex-layout.col#footer-2-desktop"
     ],
     "props": {
       "blockClass": "menu-row",
@@ -24,6 +25,12 @@
     }
   },
   "flex-layout.col#footer-1-desktop": {
+    "children": [
+      "logo",
+      "locale-switcher" 
+    ]
+  },
+  "flex-layout.col#footer-2-desktop": {
     "children": [
       "flex-layout.row#app-download",
       "flex-layout.row#footer-contact",
