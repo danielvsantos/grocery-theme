@@ -136,7 +136,7 @@
   "rich-text#home-shelf2-title": {
     "props": {
       "text": "## Summer",
-      "blockClass": "home-shelf-Title"
+      "blockClass": "home-shelf-title"
     },
     "title": "HOME - Bottom Shelf Title"
   },
