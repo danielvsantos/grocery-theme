@@ -18,8 +18,8 @@
       "flex-layout.row#marcas",
       "rich-text#question",
       "rich-text#link",
-      "newsletter",
       "rich-text#bottom-shelf-title",
+      "newsletter",
       "flex-layout.row#bottom-shelf"
     ]
   },
