@@ -5,8 +5,7 @@
   "footer-layout.desktop": {
     "children": [
       "flex-layout.row#footer-1-desktop",
-      "flex-layout.row#footer-2-desktop",
-      "flex-layout.row#footer-3-desktop"
+      "flex-layout.row#footer-2-desktop"
     ]
   },
   "flex-layout.row#footer-1-desktop": {
@@ -16,7 +15,7 @@
       "vtex.menu@2.x:menu#footer-decoration",
       "vtex.menu@2.x:menu#footer-bags",
       "footer-spacer",
-      "social-networks"
+      "flex-layout.col#footer-1-desktop"
     ],
     "props": {
       "blockClass": "menu-row",
@@ -24,25 +23,85 @@
       "paddingBottom": 3
     }
   },
-
+  "flex-layout.col#footer-1-desktop": {
+    "children": [
+      "flex-layout.row#app-download",
+      "flex-layout.row#footer-contact",
+      "social-networks" 
+    ]
+  },
+  "flex-layout.row#app-download": {
+    "children": [
+      "image#playstore",
+      "image#appstore"
+    ],
+    "props": {
+      "blockClass": "appdownload-footer-row",
+      "paddingTop": 6,
+      "paddingBottom": 3
+    }
+  },
+  "image#playstore": {
+    "props": {
+      "src": "https://www.ametllerorigen.com/arquivos/googlePlay.png?v=636994657225100000",
+      "maxHeight": "24px"
+    },
+    "title": "Google Play Store"
+  },
+  "image#appstore": {
+    "props": {
+      "src": "https://www.ametllerorigen.com/arquivos/appStore.png?v=636994657221500000",
+      "maxHeight": "24px"
+    },
+    "title": "Apple Store"
+  },
+  "flex-layout.row#footer-contact": {
+    "children": [
+      "image#contact",
+      "rich-text#contact"
+    ],
+    "props": {
+      "blockClass": "contact-footer-row",
+      "paddingTop": 6,
+      "paddingBottom": 3
+    }
+  },
+  "image#contact": {
+    "props": {
+      "src": "https://www.ametllerorigen.com/arquivos/phone-call.png?v=636993845839200000",
+      "maxHeight": "24px"
+    },
+    "title": "Call us"
+  },
+  "rich-text#contact": {
+    "props": {
+      "text": "900 877 111",
+      "blockClass": "contact"
+    },
+    "title": "Call us"
+  },
   "social-networks": {
     "props": {
       "socialNetworks": [
         {
           "name": "Facebook",
-          "url": "https://www.facebook.com/vtexonline/"
+          "url": "https://www.facebook.com/ametllerorigen/"
         },
         {
           "name": "Instagram",
-          "url": "https://www.instagram.com/vtextruecloud/"
+          "url": "https://www.instagram.com/ametllerorigen/"
         },
         {
           "name": "Twitter",
-          "url": "https://twitter.com/vtexonline"
+          "url": "https://twitter.com/AmetllerOrigen"
         },
         {
           "name": "Youtube",
-          "url": "https://www.youtube.com/user/VTEXTV"
+          "url": "https://www.youtube.com/c/AMETLLERORIGEN_AO"
+        },
+        {
+          "name": "Linkedin",
+          "url": "https://www.linkedin.com/company/grup-ametller-origen/"
         }
       ]
     }
@@ -56,23 +115,9 @@
   },
   "accepted-payment-methods": {
     "props": {
-      "paymentMethods": ["MasterCard", "Visa", "Diners Club"]
+      "paymentMethods": ["MasterCard", "Visa", "PayPal"]
     }
   },
-
-  "flex-layout.row#footer-3-desktop": {
-    "children": ["rich-text#footer"],
-    "props": {
-      "blockClass": "credits"
-    }
-  },
-  "rich-text#footer": {
-    "props": {
-      "text": "All stock and product photos are from photos.icons8.com",
-      "blockClass": "footer"
-    }
-  },
-
   "footer-layout.mobile": {
     "children": [
       "flex-layout.row#1-footer-mobile",
