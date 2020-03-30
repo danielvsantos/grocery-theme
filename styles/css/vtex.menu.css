@@ -1,10 +1,11 @@
+
+/* General */
+
 .submenuWrapper {
     max-width: 700px;
 }
-.styledLinkContent--links-footer {
-  color: #918470;
-  font-weight: bold;
-}
+
+/* Header */
 
 .styledLinkContent--header-department-title{
   color: #FFFFFF;
@@ -18,4 +19,13 @@
 .styledLinkContainer--header-promotions-title{
   background-color: red;
 }
+
+/* Footer */
+
+.styledLinkContent--links-footer {
+  color: #3D350B;
+  font-weight: bold;
+}
+
+
   
