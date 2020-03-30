@@ -1,19 +1,141 @@
 {
     "store.custom#registration": {
       "blocks": [
-        "flex-layout.row#registration"
+        "flex-layout.row#register-page"
       ]
     },
-    "flex-layout.row#registration": {
+    "flex-layout.row#register-page": {
+      "children": [
+        "flex-layout.col#ventajas",
+        "flex-layout.col#form"
+      ],
+      "title": "Registration Page"
+    },
+    "flex-layout.col#ventajas": {
         "children": [
-            "rich-text#greeting"
+          "image#register",  
+          "rich-text#title-register",
+          "flex-layout.row#register1",
+          "flex-layout.row#register2",
+          "flex-layout.row#register3",
+          "flex-layout.row#register4"
         ]
     },
-    "rich-text#greeting": {
+    "image#register": {
+      "props": {
+        "src": "https://www.ametllerorigen.com/arquivos/img-ventajas-club-CAT.png?v=636982525235170000"
+      },
+      "title": "Banner advantadges"
+    },
+    "rich-text#title-register": {
         "props": {
           "text":
-          "# Create meaningful and relevant experiences.",
-          "blockClass": "title"
+          "# Avantatges de formar part del Club Ametller Origen",
+          "blockClass": "h2-register-page"
         }
+    },
+    "flex-layout.row#register1": {
+      "children": [
+        "image#register1-image",
+        "rich-text#register1-text"
+      ],
+      "title": "Column 1"
+    },
+    "image#register1-image": {
+      "props": {
+        "src": "https://www.ametllerorigen.com/arquivos/logo1.png?v=636718921011870000"
+      },
+      "title": "Image Advantadge 1"
+    },
+    "rich-text#register1-text": {
+      "props": {
+        "text": "##VALS REGAL Genera vals regal trimestrals acumulant punts amb les teves compres.",
+        "blockClass": "text-pagina-club"
+      },
+      "title": "Text Advantadge 1"
+    },
+    "flex-layout.row#register2": {
+      "children": [
+        "image#register2-image",
+        "rich-text#register2-text"
+      ],
+      "title": "Column 2"
+    },
+    "image#register2-image": {
+      "props": {
+        "src": "https://www.ametllerorigen.com/arquivos/logo2.png?v=636718921081200000"
+      },
+      "title": "Image Advantadge 2"
+    },
+    "rich-text#register2-text": {
+      "props": {
+        "text": "##PROMOCIONS CLUB #Només amb la teva targeta Club podràs gaudir de totes les promocions en productes seleccionats a les nostres botigues.",
+        "blockClass": "text-pagina-club"
+      },
+      "title": "Text Advantadge 2"
+    },
+    "flex-layout.row#register3": {
+      "children": [
+        "image#register3-image",
+        "rich-text#register3-text"
+      ],
+      "title": "Column 3"
+    },
+    "image#register3-image": {
+      "props": {
+        "src": "https://www.ametllerorigen.com/arquivos/logo3.png?v=636718921157300000"
+      },
+      "title": "Image Advantadge 3"
+    },
+    "rich-text#register3-text": {
+      "props": {
+        "text": "DESCOMPTES PERSONALITZATS Cada mes rebràs descomptes personalitzats adaptats als teus gustos i necessitats a través del tiquet de compra, missatge de text, correu electrònic i/o app.",
+        "blockClass": "text-pagina-club"
+      },
+      "title": "Text Advantadge 3"
+    },
+    "flex-layout.row#register4": {
+      "children": [
+        "image#register4-image",
+        "rich-text#register4-text"
+      ],
+      "title": "Column 4"
+    },
+    "image#register4-image": {
+      "props": {
+        "src": "https://www.ametllerorigen.com/arquivos/logo4.png?v=636718921226330000"
+      },
+      "title": "Image Advantadge 4"
+    },
+    "rich-text#register4-text": {
+      "props": {
+        "text": "ACTIVITATS EXCLUSIVES Tallers de cuina per a adults i nens, visites a les nostres instal·lacions, cursos de maridatge, xerrades relacionades amb el món de la nutrició i l’esport, participació en les proves de tast de nous productes, etc.",
+        "blockClass": "text-pagina-club"
+      },
+      "title": "Text Advantadge 4"
+    },
+    "flex-layout.col#form": {
+        "children": [
+          "form"
+        ]
+    },
+    "form": {
+      "props":{
+        "entity": "registroclub",
+        "schema": "cadastroweb"
+      },
+      "blocks": ["form-success"] 
+    },
+    "form-success":{
+      "children": [
+        "rich-text#thank-you"
+      ]
+    },
+    "rich-text#thank-you": {
+      "props": {
+        "text": "Gracias!",
+        "blockClass": "thank-you-message"
+      },
+      "title": "Thank you message"
     }
 }

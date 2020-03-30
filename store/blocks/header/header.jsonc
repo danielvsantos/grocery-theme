@@ -65,6 +65,7 @@
       "flex-layout.col#search",
       "flex-layout.col#spacer",
       "locale-switcher",
+      "flex-layout.col#register",
       "login",
       "minicart.v2"
     ],
@@ -93,6 +94,20 @@
     },
     "children": ["search-bar"],
     "title": "Search Bar"
+  },
+  "flex-layout.col#register": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["rich-text#register"],
+    "title": "Fes-te del club"
+  },
+  "rich-text#register": {
+    "props": {
+      "text": "[Fes-te del club](/apunta-te)",
+      "blockClass": "register"
+    },
+    "title": "Register CTA"
   },
   "flex-layout.row#4-desktop":{
     "props": {
