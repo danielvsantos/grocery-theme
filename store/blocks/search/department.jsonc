@@ -1,0 +1,11 @@
+{
+
+  "store.search#department": {
+    "blocks": [
+        "flex-layout.row#searchbread",
+        "search-title.v2",
+        "search-result-layout"
+    ]
+  }
+
+}

@@ -21,17 +21,6 @@
       }
     }
   },
-
-  "store.search#department": {
-    "blocks": ["search-result-layout"],
-    "props": {
-      "context": {
-        "skusFilter": "ALL",
-        "simulationBehavior": "skip"
-      }
-    }
-  },
-
   "store.search#category": {
     "blocks": ["search-result-layout"],
     "props": {
