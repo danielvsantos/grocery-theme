@@ -38,7 +38,8 @@
         "noFollow": true,
         "tagTitle": "VERDURA",
         "text": "VERDURA"
-      }
+      },
+      "blockClass":"header-department-title"
     },
     "blocks": [
       "vtex.menu@2.x:submenu#department-1"
@@ -369,7 +370,8 @@
         "noFollow": true,
         "tagTitle": "FRUITA",
         "text": "FRUITA"
-      }
+      },
+      "blockClass":"header-department-title"
     },
     "blocks": [
       "vtex.menu@2.x:submenu#department-2"
@@ -700,7 +702,8 @@
         "noFollow": true,
         "tagTitle": "PLATS CUINATS",
         "text": "PLATS CUINATS"
-      }
+      },
+      "blockClass":"header-department-title"
     },
     "blocks": [
       "vtex.menu@2.x:submenu#department-3"
@@ -938,7 +941,8 @@
         "noFollow": true,
         "tagTitle": "LÀCTICS I OUS",
         "text": "LÀCTICS I OUS"
-      }
+      },
+      "blockClass":"header-department-title"
     },
     "blocks": [
       "vtex.menu@2.x:submenu#department-4"
@@ -1176,7 +1180,8 @@
         "noFollow": true,
         "tagTitle": "CARN",
         "text": "CARN"
-      }
+      },
+      "blockClass":"header-department-title"
     },
     "blocks": [
       "vtex.menu@2.x:submenu#department-5"
@@ -1414,7 +1419,8 @@
         "noFollow": true,
         "tagTitle": "PEIX",
         "text": "PEIX"
-      }
+      },
+      "blockClass":"header-department-title"
     },
     "blocks": [
       "vtex.menu@2.x:submenu#department-6"
@@ -1652,7 +1658,8 @@
         "noFollow": true,
         "tagTitle": "REBOST",
         "text": "REBOST"
-      }
+      },
+      "blockClass":"header-department-title"
     },
     "blocks": [
       "vtex.menu@2.x:submenu#department-7"
@@ -1999,7 +2006,8 @@
         "noFollow": true,
         "tagTitle": "GALETES I PA",
         "text": "GALETES I PA"
-      }
+      },
+      "blockClass":"header-department-title"
     },
     "blocks": [
       "vtex.menu@2.x:submenu#department-8"
@@ -2237,7 +2245,8 @@
         "noFollow": true,
         "tagTitle": "BEGUDES",
         "text": "BEGUDES"
-      }
+      },
+      "blockClass":"header-department-title"
     },
     "blocks": [
       "vtex.menu@2.x:submenu#department-9"
@@ -2475,7 +2484,8 @@
         "noFollow": true,
         "tagTitle": "PROMOCIONS",
         "text": "PROMOCIONS"
-      }
+      },
+      "blockClass":"header-promotions-title"
     },
     "blocks": [
       "vtex.menu@2.x:submenu#department-10"

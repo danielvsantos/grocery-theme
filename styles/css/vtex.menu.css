@@ -5,4 +5,17 @@
   color: #918470;
   font-weight: bold;
 }
+
+.styledLinkContent--header-department-title{
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.styledLinkContent--header-promotions-title{
+  color: #FFFFFF;
+  font-weight: bold;
+}
+.styledLinkContainer--header-promotions-title{
+  background-color: red;
+}
   
