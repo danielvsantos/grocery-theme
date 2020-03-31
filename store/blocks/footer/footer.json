@@ -82,7 +82,7 @@
   },
   "rich-text#contact": {
     "props": {
-      "text": "900 877 111",
+      "text": "[900 877 111](tel:900877111)",
       "blockClass": "contact"
     },
     "title": "Call us"
