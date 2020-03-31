@@ -12,14 +12,13 @@
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
       "__fold__.experimentalLazyAssets",
       "flex-layout.row#deals",
+      "flex-layout.row#mini-banners",
       "rich-text#home-shelf1-title",
       "flex-layout.row#home-shelf1",
-      "info-card#home",
-      "flex-layout.row#marcas",
-      "rich-text#question",
-      "rich-text#link",
       "rich-text#home-shelf2-title",
       "flex-layout.row#home-shelf2",
+      "info-card#home",
+      "rich-text#link",
       "newsletter"
     ]
   },
@@ -34,7 +33,6 @@
       "newsletter"
     ]
   },
-
   "shelf#home": {
     "blocks": ["product-summary.shelf"]
   },
@@ -135,7 +133,7 @@
   },
   "rich-text#home-shelf2-title": {
     "props": {
-      "text": "## Summer",
+      "text": "**PRODUCTES DESTACATS",
       "blockClass": "home-shelf-title"
     },
     "title": "HOME - Bottom Shelf Title"
@@ -148,7 +146,8 @@
     "blocks": ["product-summary.shelf"],
     "children": ["slider-layout#home-shelf2"],
     "props": {
-      "orderBy": "OrderByTopSaleDESC"
+      "orderBy": "OrderByTopSaleDESC",
+      "category": "/4" 
     },
     "title": "Shelf Configurations"
   },
@@ -164,7 +163,6 @@
       "blockClass": "home-shelf"
     }
   },
-
   "info-card#home": {
     "props": {
       "id": "info-card-home",
@@ -179,16 +177,16 @@
     },
     "title": "HOME - Infocard"
   },
-  "flex-layout.row#marcas": {
+  "flex-layout.row#mini-banners": {
     "children": [
-        "flex-layout.col#marcas"
+        "flex-layout.col#mini-banners"
     ],
     "title": "HOME - Brand Carrousel",
     "props": {
         "blockClass": "miniBannersTopRow"
     }    
 },
-"flex-layout.col#marcas": {
+"flex-layout.col#mini-banners": {
     "children": [
         "powerplanet-mini-banners"
     ],
@@ -197,14 +195,6 @@
         "blockClass": "miniBannersTopCol"
     }
 },
-  "rich-text#question": {
-    "props": {
-      "text": "**This is an example store built using the VTEX platform.\nWant to know more?**",
-      "blockClass": "question"
-    },
-    "title": "HOME - 1st Rich Text"
-  },
-
   "rich-text#link": {
     "props": {
       "text": "\n**Reach us at**\nwww.vtex.com.br",
