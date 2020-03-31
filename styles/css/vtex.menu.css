@@ -9,12 +9,12 @@
 
 .styledLinkContent--header-department-title{
   color: #FFFFFF;
-  font-weight: bold;
+  font-family: 'Lato';
 }
 
 .styledLinkContent--header-promotions-title{
   color: #FFFFFF;
-  font-weight: bold;
+
 }
 .styledLinkContainer--header-promotions-title{
   background-color: red;
@@ -24,7 +24,6 @@
 
 .styledLinkContent--links-footer {
   color: #3D350B;
-  font-weight: bold;
 }
 
 
