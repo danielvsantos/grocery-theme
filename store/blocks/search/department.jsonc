@@ -14,11 +14,13 @@
       "flex-layout.row#searchbread",
       "flex-layout.row#department-header",
       "flex-layout.row#department-categories",
+      "__fold__.experimentalLazyAssets",
       "flex-layout.row#department-shelf1-title",
       "flex-layout.row#department-shelf1",
       "flex-layout.row#department-shelf2-title",
       "flex-layout.row#department-shelf2",
-      "flex-layout.col#content"
+      "flex-layout.row#department-all-products",
+      "flex-layout.row#result"
     ],
     "props": {
       "pagination": "show-more",
@@ -131,7 +133,7 @@
     "children": ["slider-layout#department-shelf1"],
     "props": {
       "orderBy": "OrderByTopSaleDESC",
-      "category": "/4/67"
+      "category": "4/67"
     },
     "title": "Shelf Configurations"
   },
@@ -158,7 +160,7 @@
     },
     "rich-text#department-shelf2-title": {
       "props": {
-        "text": "**Creme i sopas",
+        "text": "**Creme i sopas**",
         "blockClass": "department-shelf-title"
       },
       "title": "DEPARTMENT - Shelf 2 Title"
@@ -179,7 +181,7 @@
       "children": ["slider-layout#department-shelf2"],
       "props": {
         "orderBy": "OrderByTopSaleDESC",
-        "category": "/4/68"
+        "category": "4/68"
       },
       "title": "Shelf Configurations"
     },
@@ -194,5 +196,20 @@
         "fullWidth": true,
         "blockClass": "department-shelf"
       }
+    },
+    "flex-layout.row#department-all-products": {
+      "children": [
+        "rich-text#department-all-products"
+      ],
+      "props":{
+        "horizontalAlign": "center"
+      }
+    },
+    "rich-text#department-all-products": {
+      "props": {
+        "text": "**Tots le products**",
+        "blockClass": "department-shelf-title"
+      },
+      "title": "DEPARTMENT - All products title"
     }
 }
