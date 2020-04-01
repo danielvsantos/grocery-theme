@@ -130,7 +130,9 @@
   "product-specification-badges": {
     "props": {
       "specificationGroupName": "allSpecifications",
-      "displayValue": "SPECIFICATION_NAME"
+      "blockClass": "badges",
+      "displayValue": "SPECIFICATION_NAME",
+      "specificationName": "Allergens_0"
     }
   },
   "responsive-layout.mobile":{
