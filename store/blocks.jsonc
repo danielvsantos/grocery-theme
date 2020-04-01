@@ -43,9 +43,33 @@
       "product-rating-inline",
       "product-summary-space",
       "product-summary-price",
-      "add-to-cart-button"
+      "flex-layout.row#quantity-buy-button"
     ]
   },
+  "flex-layout.row#quantity-buy-button": {
+    "children": [
+      "flex-layout.col#quantity-selector",
+      "flex-layout.col#buy-button"
+    ],
+    "title": "Registration Page"
+  },
+  "flex-layout.col#quantity-selector": {
+    "children": [
+      "product-summary-quantity"
+    ],
+    "props": {
+      "width": "25%",
+      "preventHorizontalStretch": "true"
+    },
+    "title": "Registration Page"
+  },
+  "flex-layout.col#buy-button": {
+    "children": [
+      "add-to-cart-button"
+    ],
+    "title": "Registration Page"
+  },
+
   "product-summary-image#shelf": {
     "props": {
       "showBadge": false
