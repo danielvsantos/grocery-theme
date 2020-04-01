@@ -1,9 +1,17 @@
 {
     "store.custom#registration": {
       "blocks": [
+        "flex-layout.row#register-page-title",
         "flex-layout.row#register-page"
       ]
     },
+    "flex-layout.row#register-page-title": {
+      "children": [
+        "image#register"
+      ],
+      "title": "Registration Page"
+    },
+    
     "flex-layout.row#register-page": {
       "children": [
         "flex-layout.col#ventajas",
@@ -13,7 +21,6 @@
     },
     "flex-layout.col#ventajas": {
         "children": [
-          "image#register",  
           "rich-text#title-register",
           "flex-layout.row#register1",
           "flex-layout.row#register2",
