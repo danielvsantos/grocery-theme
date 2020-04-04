@@ -64,6 +64,7 @@
       "flex-layout.col#spacer",
       "flex-layout.col#search",
       "flex-layout.col#spacer",
+      "flex-layout.col#store-selector",
       "locale-switcher",
       "flex-layout.col#register",
       "login",
@@ -95,6 +96,13 @@
     "children": ["search-bar"],
     "title": "Search Bar"
   },
+  "flex-layout.col#store-selector": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["location-selector"],
+    "title": "Store Selector"
+  },
   "flex-layout.col#register": {
     "props": {
       "verticalAlign": "middle"
@@ -109,6 +117,7 @@
     },
     "title": "Register CTA"
   },
+
   "flex-layout.row#4-desktop":{
     "props": {
       "blockClass": "main-header-category-menu",
