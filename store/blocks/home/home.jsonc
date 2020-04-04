@@ -29,6 +29,8 @@
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
       "__fold__.experimentalLazyAssets",
+      "rich-text#home-bannerrow1-title",
+      "flex-layout.row#home-bannerrow1",
       "rich-text#home-shelf1-title",
       "flex-layout.row#home-shelf1",
       "newsletter"
@@ -43,7 +45,8 @@
     ],
     "title": "HOME - Main Banner",
     "props": {
-      "blockClass":"rowGalleryGrid"
+      "blockClass":"rowGalleryGrid",
+      "fullWidth": "true"
     }
   },
   "list-context.image-list#demo": {
@@ -54,15 +57,15 @@
       "images": [
         {
           "image": "https://ametllerorigen.vteximg.com.br/arquivos/ids/164693/megabanner-nou-servei-codis-postals-CAT.jpg?v=637212358412800000",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+          "mobileImage": "https://ametllerorigen.vteximg.com.br/arquivos/ids/164693/megabanner-nou-servei-codis-postals-CAT.jpg?v=637212358412800000"
         },
         {
           "image": "https://ametllerorigen.vteximg.com.br/arquivos/ids/164724/Megabbaner-formatges-autor-sebastien-CAT.jpg?v=637213544713270000",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+          "mobileImage": "https://ametllerorigen.vteximg.com.br/arquivos/ids/164724/Megabbaner-formatges-autor-sebastien-CAT.jpg?v=637213544713270000"
         },
         {
           "image": "https://ametllerorigen.vteximg.com.br/arquivos/ids/164691/JordiMorera_Sampling_Motion_CAT.gif?v=637210184815330000",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+          "mobileImage": "https://ametllerorigen.vteximg.com.br/arquivos/ids/164691/JordiMorera_Sampling_Motion_CAT.gif?v=637210184815330000"
         }
       ]
     }
