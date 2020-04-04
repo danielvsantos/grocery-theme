@@ -18,7 +18,6 @@
       "rich-text#home-shelf2-title",
       "flex-layout.row#home-shelf2",
       "info-card#home",
-      "rich-text#link",
       "newsletter"
     ]
   },
@@ -194,12 +193,5 @@
     "props": {
         "blockClass": "miniBannersTopCol"
     }
-},
-  "rich-text#link": {
-    "props": {
-      "text": "\n**Reach us at**\nwww.vtex.com.br",
-      "blockClass": "link"
-    },
-    "title": "HOME - 2nd Rich Text"
-  }
+}
 }

@@ -29,7 +29,7 @@
 }
 
 .headingLevel2--home-shelf-title {
-  font-weight: 200;
+  font-weight: 800;
 }
 
 
@@ -92,6 +92,7 @@
 
 .container--home-shelf-title {
   background-color: #F7F7F1;
+  padding-top: 15px;
 }
 
 
