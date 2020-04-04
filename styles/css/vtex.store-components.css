@@ -1,3 +1,4 @@
+/* HEADER */
 .notificationBarContainer {
   background-color: #63BBA8;
   color: #ffffff;
@@ -15,7 +16,6 @@
   border:none;
 }
 
-
 .infoCardCallActionContainer :global(.vtex-button) {
   background-color: #63BBA8;
   color: #fff;
@@ -27,6 +27,8 @@
   background-color: #e6f1e6;
   padding: 0px;
 }
+
+/* HOME */
 
 
 /* NEWSLETTER */

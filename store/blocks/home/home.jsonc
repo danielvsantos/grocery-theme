@@ -39,36 +39,29 @@
   },
   "flex-layout.row#main-slider-banner": {
     "children": [
-      "flex-layout.col#main-slider",
-      "flex-layout.col#main-banner"
-    ],
-    "title": "HOME - 1st Row Desktop",
-    "props": {
-      "blockClass":"rowGalleryGrid"
-    }
-  },
-  "flex-layout.col#main-slider": {
-    "children": [
       "list-context.image-list#demo"
     ],
-    "title": "Left Column",
+    "title": "HOME - Main Banner",
     "props": {
-      "width": "70%",
-      "blockClass": "main-slider"
+      "blockClass":"rowGalleryGrid"
     }
   },
   "list-context.image-list#demo": {
     "children": ["slider-layout#demo-images"],
     "title": "Main Banners",
     "props": {
-      "height": 720,
+      "height": 500,
       "images": [
         {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/banner.jpg",
+          "image": "https://ametllerorigen.vteximg.com.br/arquivos/ids/164693/megabanner-nou-servei-codis-postals-CAT.jpg?v=637212358412800000",
           "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
         },
         {
-          "src": "assets/homebannernewtry.png",
+          "image": "https://ametllerorigen.vteximg.com.br/arquivos/ids/164724/Megabbaner-formatges-autor-sebastien-CAT.jpg?v=637213544713270000",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+        },
+        {
+          "image": "https://ametllerorigen.vteximg.com.br/arquivos/ids/164691/JordiMorera_Sampling_Motion_CAT.gif?v=637210184815330000",
           "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
         }
       ]
@@ -86,21 +79,6 @@
       "blockClass": "carousel"
     }
   },
-  "flex-layout.col#main-banner": {
-    "children":["image#main-banner"],
-    "props": {
-      "width": "30%",
-      "blockClass": "main-banner"
-    },
-    "title": "Right Column"
-  },
-  "image#main-banner":{
-    "props":{
-      "src": "/assets/vtex.file-manager-graphql/images/logoNeu___95143a92821d96b04b502f1042a4bf3c.png"
-    },
-    "title": "Banner"
-  },
-
   "rich-text#home-shelf1-title": {
     "props": {
       "text": "**PRODUCTES DESTACATS**",
