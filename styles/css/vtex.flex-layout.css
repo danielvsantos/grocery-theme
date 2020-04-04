@@ -133,6 +133,7 @@
 }
 
 .flexRow--rowGalleryGrid {
+  max-width: 1280px;
   margin: 0 auto ;
 }
 
@@ -143,6 +144,7 @@
 .flexRowContent--rowGalleryGrid {
   margin-bottom: 20px;
 }
+
 
 :global(.vtex-flex-layout-0-x-flexCol--ColSmallGalleryGrid){
   flex:grid!important;

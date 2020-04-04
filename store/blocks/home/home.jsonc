@@ -45,7 +45,7 @@
     ],
     "title": "HOME - Main Banner",
     "props": {
-      "blockClass":"rowGalleryGrid",
+      "blockClass":"rowMainBanner",
       "fullWidth": "true"
     }
   },
@@ -53,7 +53,7 @@
     "children": ["slider-layout#demo-images"],
     "title": "Main Banners",
     "props": {
-      "height": 500,
+      "height": 300,
       "images": [
         {
           "image": "https://ametllerorigen.vteximg.com.br/arquivos/ids/164693/megabanner-nou-servei-codis-postals-CAT.jpg?v=637212358412800000",
