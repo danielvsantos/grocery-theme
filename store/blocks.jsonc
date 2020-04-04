@@ -49,7 +49,9 @@
   },
   "product-summary-image#shelf": {
     "props": {
-      "showBadge": false
+      "showBadge": false,
+      "width": "267",
+      "height": "267"
     }
   },
   "stack-layout#prodsum": {
