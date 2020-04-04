@@ -10,7 +10,7 @@
       "flex-layout.row#product-breadcrumb",
       "flex-layout.row#product-main",
       "flex-layout.row#product-specifications",
-      "shelf.relatedProducts",
+      "shelf.relatedProducts#product",
       "product-reviews",
       "product-questions-and-answers"
     ]
@@ -57,7 +57,7 @@
   "flex-layout.col#stack": {
     "children": ["stack-layout"],
     "props": {
-      "width": "60%",
+      "width": "50%",
       "rowGap": 0
     }
   },
@@ -95,8 +95,7 @@
       "product-specification-badges#weight",
       "product-assembly-options",
       "product-gifts",
-      "availability-subscriber",
-      "share#default"
+      "availability-subscriber"
     ]
   },
   "flex-layout.row#price-qty-buy":{
@@ -215,6 +214,14 @@
         "Twitter": false,
         "Pinterest": true
       }
+    }
+  },
+  "shelf.relatedProducts#product":{
+    "blocks": [
+      "product-summary"
+    ],
+    "props": {
+      "recommendation": "view"
     }
   },
   "responsive-layout.mobile":{
