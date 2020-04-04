@@ -28,6 +28,9 @@
   padding: 0px;
 }
 
+
+/* NEWSLETTER */
+
 .newsletter {
   background-image: url(/arquivos/newsletter-background.jpg?v=636985158698700000);
   max-width: 1528px;
@@ -37,6 +40,13 @@
 .newsletter .container {
   padding: 60px 10px;
   background-image: url(/arquivos/newsletter-background.jpg?v=636985158698700000);
+}
+
+.confirmationTitle {
+  color: #ffffff;
+}
+.confirmationText {
+  color: #ffffff;
 }
 
 .label {
