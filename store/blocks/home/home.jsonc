@@ -12,7 +12,6 @@
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
       "__fold__.experimentalLazyAssets",
       "flex-layout.row#deals",
-      "flex-layout.row#mini-banners",
       "rich-text#home-shelf1-title",
       "flex-layout.row#home-shelf1",
       "rich-text#home-shelf2-title",
@@ -175,23 +174,5 @@
       "textAlignment": "center"
     },
     "title": "HOME - Infocard"
-  },
-  "flex-layout.row#mini-banners": {
-    "children": [
-        "flex-layout.col#mini-banners"
-    ],
-    "title": "HOME - Brand Carrousel",
-    "props": {
-        "blockClass": "miniBannersTopRow"
-    }    
-},
-"flex-layout.col#mini-banners": {
-    "children": [
-        "powerplanet-mini-banners"
-    ],
-    "title": "General Settings",
-    "props": {
-        "blockClass": "miniBannersTopCol"
-    }
-}
+  }
 }

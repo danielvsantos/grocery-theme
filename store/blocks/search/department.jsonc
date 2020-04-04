@@ -94,7 +94,7 @@
 },
 "flex-layout.col#department-categories": {
     "children": [
-        "powerplanet-mini-banners"
+        
     ],
     "title": "General Settings",
     "props": {
@@ -103,8 +103,7 @@
 },
 "flex-layout.row#department-shelf1-title": {
     "children": [
-      "rich-text#department-shelf1-title",
-      "rich-text#department-shelf1-seemore"
+      "rich-text#department-shelf1-title"
     ],
     "props":{
       "horizontalAlign": "left"
@@ -112,7 +111,7 @@
   },
   "rich-text#department-shelf1-title": {
     "props": {
-      "text": "**Mejores canelones",
+      "text": "**Mejores canelones**",
       "blockClass": "department-shelf-title"
     },
     "title": "DEPARTMENT - Shelf 1 Title"
@@ -151,8 +150,7 @@
   },
   "flex-layout.row#department-shelf2-title": {
       "children": [
-        "rich-text#department-shelf2-title",
-        "rich-text#department-shelf2-seemore"
+        "rich-text#department-shelf2-title"
       ],
       "props":{
         "horizontalAlign": "left"
