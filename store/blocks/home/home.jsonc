@@ -11,11 +11,12 @@
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
       "__fold__.experimentalLazyAssets",
-      "flex-layout.row#deals",
+      "rich-text#home-bannerrow1-title",
+      "flex-layout.row#home-bannerrow1",
       "rich-text#home-shelf1-title",
       "flex-layout.row#home-shelf1",
-      "rich-text#home-bannerrow-title",
-      "flex-layout.row#home-bannerrow",
+      "rich-text#home-bannerrow2-title",
+      "flex-layout.row#home-bannerrow2",
       "rich-text#home-shelf2-title",
       "flex-layout.row#home-shelf2",
       "info-card#home",
@@ -140,14 +141,17 @@
   },
   "flex-layout.row#home-shelf2": {
     "children": ["list-context.product-list#home2"],
-    "title": "HOME - Bottom Shelf"
+    "title": "HOME - Bottom Shelf",
+    "props": {
+      "paddingBottom": 7
+    }
   },
   "list-context.product-list#home2": {
     "blocks": ["product-summary.shelf"],
     "children": ["slider-layout#home-shelf2"],
     "props": {
       "orderBy": "OrderByTopSaleDESC",
-      "category": "4" 
+      "category": "4"
     },
     "title": "Shelf Configurations"
   },

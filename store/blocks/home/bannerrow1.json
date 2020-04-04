@@ -1,0 +1,67 @@
+{
+    "rich-text#home-bannerrow1-title": {
+        "props": {
+          "text": "**AQUESTA SEMANA**",
+          "blockClass": "home-bannerrow-title"
+        },
+        "title": "HOME - Banner Row Title"
+      },
+    "flex-layout.row#home-bannerrow1": {
+        "children": [
+          "flex-layout.col#home-col01-banners-01",
+          "flex-layout.col#home-col02-banners-01",
+          "flex-layout.col#home-col03-banners-01"
+        ],
+        "props": {
+          "blockClass": "rowInfocard",
+          "colGap": 5,
+          "paddingBottom": 4
+        },
+        "title": "HOME - Infocard Row"
+      },
+      "flex-layout.col#home-col01-banners-01": {
+        "children": [
+          "image#bannerrow1-01"
+        ],
+        "props": {
+          "blockClass": "ColLargeGalleryGrid"
+        },
+        "title": "HOME - Left Column"
+      },
+      "image#bannerrow1-01": {
+        "props": {
+          "src": "https://www.ametllerorigen.com/arquivos/Nespres-cat-2.jpg?v=637213527425630000",
+          "blockClass": "bannerrow1"
+        }
+      },
+      "flex-layout.col#home-col02-banners-01": {
+        "children": [
+          "image#bannerrow1-02"
+        ],
+        "props": {
+          "blockClass": "ColLargeGalleryGrid"
+        },
+        "title": "HOME - Middle Column"
+      },
+      "image#bannerrow1-02": {
+        "props": {
+          "src": "https://www.ametllerorigen.com/arquivos/MInibanner_rogers-CAT.jpg?v=637212683926670000",
+          "blockClass": "bannerrow1"
+        }
+      },
+      "flex-layout.col#home-col03-banners-01": {
+        "children": [
+          "image#bannerrow1-03"
+        ],
+        "props": {
+          "blockClass": "ColLargeGalleryGrid"
+        },
+        "title": "HOME - Right Column"
+      },
+      "image#bannerrow1-03": {
+        "props": {
+          "src": "https://www.ametllerorigen.com/arquivos/Vins-CAT-2.jpg?v=637213537625970000",
+          "blockClass": "bannerrow1"
+        }
+      }
+}

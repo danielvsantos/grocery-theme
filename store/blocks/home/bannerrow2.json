@@ -1,5 +1,5 @@
 {
-    "rich-text#home-bannerrow-title": {
+    "rich-text#home-bannerrow2-title": {
         "props": {
           "text": "**EL MILLER PER A TU**",
           "blockClass": "home-bannerrow-title"
@@ -7,19 +7,19 @@
         "title": "HOME - Banner Row Title"
       },
     
-    "flex-layout.row#home-bannerrow": {
+    "flex-layout.row#home-bannerrow2": {
         "children": [
-          "flex-layout.col#home-col01-banners-04",
-          "flex-layout.col#home-col02-banners-04"
+          "flex-layout.col#home-col01-banners-02",
+          "flex-layout.col#home-col02-banners-02"
         ],
         "props": {
           "blockClass": "rowGalleryGrid"
         },
         "title": "HOME - Banner Row"
       },
-      "flex-layout.col#home-col01-banners-04": {
+      "flex-layout.col#home-col01-banners-02": {
         "children": [
-          "flex-layout.row#home-subrow-banners-04"
+          "flex-layout.row#home-subrow-banners-02"
         ],
         "props": {
           "width": "40%",
@@ -27,7 +27,7 @@
         },
         "title": "HOME - Left Column"
       },
-      "flex-layout.row#home-subrow-banners-04": {
+      "flex-layout.row#home-subrow-banners-02": {
         "children": [
           "image#home-banner-10",
           "image#home-banner-11"
@@ -51,7 +51,7 @@
         },
         "title": "HOME - Right Image"
       },
-      "flex-layout.col#home-col02-banners-04": {
+      "flex-layout.col#home-col02-banners-02": {
         "children": [
           "image#home-banner-11-1"
         ],
