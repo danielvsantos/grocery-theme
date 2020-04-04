@@ -28,6 +28,11 @@
       "mobileLayout": {
         "mode1": "small",
         "mode2": "normal"
+      },
+      "context": {
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "default",
+        "hideUnavailableItems": "true"
       }
     }
   },

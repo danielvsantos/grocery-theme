@@ -5,8 +5,9 @@
         ],
         "props": {
             "context": {
-                "skusFilter": "ALL",
-                "simulationBehavior": "skip"
+                "skusFilter": "FIRST_AVAILABLE",
+                "simulationBehavior": "default",
+                "hideUnavailableItems": "true"
             }
         }
     },
@@ -14,8 +15,9 @@
         "blocks": ["search-result-layout"],
         "props": {
           "context": {
-            "skusFilter": "ALL",
-            "simulationBehavior": "skip"
+            "skusFilter": "FIRST_AVAILABLE",
+            "simulationBehavior": "default",
+            "hideUnavailableItems": "true"
           }
         }
       }
