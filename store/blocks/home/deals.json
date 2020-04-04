@@ -63,9 +63,8 @@
   "image#deal3": {
     "props": {
       "src": "assets/icon-deals.png",
-      "maxHeight": "72px"
-    },
-    "title": "Image Column 3"
+      "maxHeight": "72"
+    }
   },
   "rich-text#deal3": {
     "props": {
