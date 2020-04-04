@@ -131,8 +131,15 @@
     "props": {
       "specificationGroupName": "allSpecifications",
       "blockClass": "badges",
-      "displayValue": "SPECIFICATION_NAME",
-      "specificationName": "Allergens_0"
+      "specificationsOptions": [{
+        "displayValue": "SPECIFICATION_VALUE",
+        "specificationName": "Allergens_0"
+      },
+      {
+        "displayValue": "SPECIFICATION_VALUE",
+        "specificationName": "Allergens_1"
+      }
+    ]
     }
   },
   "responsive-layout.mobile":{
