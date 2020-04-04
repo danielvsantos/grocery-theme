@@ -113,6 +113,12 @@
   }
 }
 
+/* PRODUCT */ 
+
+.productDescriptionTitle {
+  display: none;
+}
+
 .productImagesContainer--quickview .carouselContainer {
   justify-content: flex-start;
 }

@@ -80,28 +80,56 @@
     },
     "children": [
       "vtex.store-components:product-name",
-      "product-rating-summary",
-      "product-price#product-details",
       "product-separator",
-      "sku-selector",
-      "product-quantity",
+      "flex-layout.row#description",
+      "product-separator",
+      "product-rating-summary",
+      "flex-layout.row#price-qty-buy",
+      "product-separator",
+      "product-specification-badges#origen",
+      "product-separator",
+      "product-specification-badges#ingredientes",
+      "product-separator",
+      "product-specification-badges#nutricional",
+      "product-separator",
+      "product-specification-badges#weight",
       "product-assembly-options",
       "product-gifts",
-      "flex-layout.row#buy-button",
       "availability-subscriber",
-      "flex-layout.row#description",
-      "share#default",
-      "product-specification-badges"
+      "share#default"
     ]
   },
-
-  "sku-selector": {
+  "flex-layout.row#price-qty-buy":{
+    "children": [
+      "flex-layout.col#price",
+      "flex-layout.col#qty",
+      "flex-layout.col#buy"
+    ]
+  },
+  "flex-layout.col#price":{
+    "children":[
+      "product-price#product-details"
+    ],
     "props": {
-      "variationsSpacing": 3,
-      "showValueNameForImageVariation": true
+      "verticalAlign": "middle"
     }
   },
-
+  "flex-layout.col#qty":{
+    "children":[
+      "product-quantity"
+    ],
+    "props": {
+      "verticalAlign": "middle"
+    }
+  },
+  "flex-layout.col#buy":{
+    "children":[
+      "flex-layout.row#buy-button"
+    ],
+    "props": {
+      "verticalAlign": "middle"
+    }
+  },
   "product-price#product-details": {
     "props": {
       "showSavings": true,
@@ -116,7 +144,69 @@
     },
     "children": ["add-to-cart-button"]
   },
-
+  "product-specification-badges#origen": {
+    "props": {
+      "specificationGroupName": "allSpecifications",
+      "blockClass": "badges",
+      "orientation": "horizontal",
+      "specificationsOptions": [{
+        "displayValue": "SPECIFICATION_NAME",
+        "specificationName": "Origen"
+      },
+      {
+        "displayValue": "SPECIFICATION_VALUE",
+        "specificationName": "Origen"
+      }
+    ]
+    }
+  },
+  "product-specification-badges#ingredientes": {
+    "props": {
+      "specificationGroupName": "allSpecifications",
+      "blockClass": "badges",
+      "orientation": "horizontal",
+      "specificationsOptions": [{
+        "displayValue": "SPECIFICATION_NAME",
+        "specificationName": "Ingredientes"
+      },
+      {
+        "displayValue": "SPECIFICATION_VALUE",
+        "specificationName": "Ingredientes"
+      }
+    ]
+    }
+  },
+  "product-specification-badges#nutricional": {
+    "props": {
+      "specificationGroupName": "allSpecifications",
+      "blockClass": "badges",
+      "orientation": "horizontal",
+      "specificationsOptions": [{
+        "displayValue": "Informació Nutricional"
+      },
+      {
+        "displayValue": "SPECIFICATION_VALUE",
+        "specificationName": "Nutrients"
+      }
+    ]
+    }
+  }, 
+  "product-specification-badges#weight": {
+    "props": {
+      "specificationGroupName": "allSpecifications",
+      "blockClass": "badges",
+      "orientation": "horizontal",
+      "specificationsOptions": [{
+        "displayValue": "SPECIFICATION_NAME",
+        "specificationName": "Peso aproximado"
+      },
+      {
+        "displayValue": "SPECIFICATION_VALUE",
+        "specificationName": "Peso aproximado"
+      }
+    ]
+    }
+  },
   "share#default": {
     "props": {
       "social": {
@@ -125,21 +215,6 @@
         "Twitter": false,
         "Pinterest": true
       }
-    }
-  },
-  "product-specification-badges": {
-    "props": {
-      "specificationGroupName": "allSpecifications",
-      "blockClass": "badges",
-      "specificationsOptions": [{
-        "displayValue": "SPECIFICATION_VALUE",
-        "specificationName": "Allergens_0"
-      },
-      {
-        "displayValue": "SPECIFICATION_VALUE",
-        "specificationName": "Allergens_1"
-      }
-    ]
     }
   },
   "responsive-layout.mobile":{

@@ -6,22 +6,14 @@
     ],
     "props": {
       "blockClass": "tabsSpecificaitons",
-      "defaultActiveTabId": "general"
+      "defaultActiveTabId": "allergens"
     }
   },
   "tab-list#section-names": {
     "children": [
-      "tab-list.item#general",
       "tab-list.item#allergens",
       "tab-list.item#preferences"
       ]
-  },
-  "tab-list.item#general": {
-    "props": {
-      "tabId": "general",
-      "label": "General",
-      "defaultActiveTab": true
-    }
   },
   "tab-list.item#allergens": {
     "props": {
@@ -37,18 +29,9 @@
   },
   "tab-content#specifications": {
     "children": [
-      "tab-content.item#general",
       "tab-content.item#allergens",
       "tab-content.item#preferences"
     ]
-  },
-  "tab-content.item#general": {
-    "children": [
-      "product-specifications#general"
-    ],
-    "props": {
-      "tabId": "general"
-    }
   },
   "tab-content.item#allergens": {
     "children": [
@@ -66,68 +49,54 @@
       "tabId": "preferences"
     }
   },
-  "product-specifications#general": {
-        "props": {
-        "visibleSpecifications": [
-            "Nutrients",
-            "Origen",
-            "Peso aproximado",
-            "Ingredientes"
-
-        ],
-        "shoudCollapseOnTabChange": true,
-        "collapsible": "desktopOnly"
-        }
-      },
-      "product-specifications#allergens": {
-        "props": {
-        "visibleSpecifications": [
-            "Allergens_0",
-            "Allergens_1",
-            "Allergens_2",
-            "Allergens_3",
-            "Allergens_4",
-            "Allergens_5",
-            "Allergens_6",
-            "Allergens_7",
-            "Allergens_8",
-            "Allergens_9",
-            "Allergens_10",
-            "Allergens_11",
-            "Allergens_12",
-            "Allergens_13"
-        ],
-        "shoudCollapseOnTabChange": true,
-        "collapsible": "desktopOnly"
-        }
-      },
-      "product-specifications#preferences": {
-        "props": {
-        "visibleSpecifications": [
-            "Preferencia_0",
-            "Preferencia_1",
-            "Preferencia_2",
-            "Preferencia_3",
-            "Preferencia_4",
-            "Preferencia_5",
-            "Preferencia_6",
-            "Preferencia_7",
-            "Preferencia_8",
-            "Preferencia_9",
-            "Preferencia_10",
-            "Preferencia_10",
-            "Preferencia_11",
-            "Preferencia_12",
-            "Preferencia_13",
-            "Preferencia_14",
-            "Preferencia_15",
-            "Preferencia_16",
-            "Preferencia_17",
-            "Preferencia_18"
-
-        ],
-        "shoudCollapseOnTabChange": true,
-        "collapsible": "desktopOnly"
-        }
-      }
+  "product-specifications#allergens": {
+    "props": {
+      "visibleSpecifications": [
+        "Allergens_0",
+        "Allergens_1",
+        "Allergens_2",
+        "Allergens_3",
+        "Allergens_4",
+        "Allergens_5",
+        "Allergens_6",
+        "Allergens_7",
+        "Allergens_8",
+        "Allergens_9",
+        "Allergens_10",
+        "Allergens_11",
+        "Allergens_12",
+        "Allergens_13"
+    ],
+    "shoudCollapseOnTabChange": true,
+    "collapsible": "desktopOnly"
+    }
+  },
+  "product-specifications#preferences": {
+    "props": {
+      "visibleSpecifications": [
+          "Preferencia_0",
+          "Preferencia_1",
+          "Preferencia_2",
+          "Preferencia_3",
+          "Preferencia_4",
+          "Preferencia_5",
+          "Preferencia_6",
+          "Preferencia_7",
+          "Preferencia_8",
+          "Preferencia_9",
+          "Preferencia_10",
+          "Preferencia_10",
+          "Preferencia_11",
+          "Preferencia_12",
+          "Preferencia_13",
+          "Preferencia_14",
+          "Preferencia_15",
+          "Preferencia_16",
+          "Preferencia_17",
+          "Preferencia_18"
+      ],
+      "shoudCollapseOnTabChange": true,
+      "collapsible": "desktopOnly"
+    }
+  }
 }
