@@ -6,14 +6,16 @@
   },
   "search-result-layout#department":{
       "blocks": [
-        "search-result-layout.desktop#department"
+        "search-result-layout.desktop#department",
+        "search-result-layout.mobile#department"
       ]
   },
   "search-result-layout.desktop#department": {
     "children": [
       "flex-layout.row#searchbread",
       "flex-layout.row#department-header",
-      "flex-layout.row#department-categories",
+      "rich-text#department-bannerrow1-title",
+      "flex-layout.row#department-bannerrow1",
       "__fold__.experimentalLazyAssets",
       "flex-layout.row#department-shelf1-title",
       "flex-layout.row#department-shelf1",
@@ -88,24 +90,6 @@
     },
     "title": "Department Description"
   },
-  "flex-layout.row#department-categories": {
-    "children": [
-        "flex-layout.col#department-categories"
-    ],
-    "title": "DEPARMENT - Category Carrousel",
-    "props": {
-        "blockClass": "miniBannersTopRow"
-    }    
-},
-"flex-layout.col#department-categories": {
-    "children": [
-        
-    ],
-    "title": "General Settings",
-    "props": {
-        "blockClass": "miniBannersTopCol"
-    }
-},
 "flex-layout.row#department-shelf1-title": {
     "children": [
       "rich-text#department-shelf1-title"
@@ -214,5 +198,32 @@
         "blockClass": "department-shelf-title"
       },
       "title": "DEPARTMENT - All products title"
+    },
+    "search-result-layout.mobile#department": {
+      "children": [
+        "flex-layout.row#searchbread",
+        "search-title.v2",
+        "flex-layout.row#department-shelf1-title",
+        "flex-layout.row#department-shelf1",
+        "__fold__.experimentalLazyAssets",
+        "flex-layout.row#department-shelf2-title",
+        "flex-layout.row#department-shelf2",
+        "flex-layout.row#department-all-products",
+        "flex-layout.row#productCountMobile",
+        "flex-layout.row#contentmobile"
+      ],
+      "props": {
+        "pagination": "show-more",
+        "preventRouteChange": true,
+        "mobileLayout": {
+          "mode1": "small",
+          "mode2": "normal"
+        },
+        "context": {
+          "skusFilter": "FIRST_AVAILABLE",
+          "simulationBehavior": "default",
+          "hideUnavailableItems": "true"
+        }
+      }
     }
 }

@@ -13,7 +13,10 @@
 }
 
 
-
+.nameContainer {
+  padding-top: 3px;
+  padding-bottom: 5px;
+}
 
 .skuSelectorContainer--quickview .skuSelectorItemImage .frameAround, .skuSelectorContainer--quickview .skuSelectorItemImage .skuSelectorInternalBox {
   border-radius: 50%;

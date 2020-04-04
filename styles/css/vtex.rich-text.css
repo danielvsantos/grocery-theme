@@ -70,10 +70,14 @@
   color: #3D350B;
   justify-content: center;
   text-align: center;
+  background-color: #F7F7F1;
+  font-size: 26px;
 }
-
-.headingLevel2--department-shelf-title {
-  font-weight: 800;
+.container--department-bannerrow-title {
+  color: #3D350B;
+  justify-content: center;
+  text-align: center;
+  font-size: 26px;
 }
 
 

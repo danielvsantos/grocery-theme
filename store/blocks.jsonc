@@ -40,7 +40,6 @@
     "children": [
       "stack-layout#prodsum",
       "product-summary-name",
-      "product-rating-inline",
       "product-summary-space",
       "product-summary-price",
       "product-summary-quantity",

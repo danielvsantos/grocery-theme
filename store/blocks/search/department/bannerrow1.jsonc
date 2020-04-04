@@ -1,0 +1,67 @@
+{
+    "rich-text#department-bannerrow1-title": {
+        "props": {
+          "text": "**OFERTES DE PLATS CUINATS**",
+          "blockClass": "department-bannerrow-title"
+        },
+        "title": "department - Banner Row Title"
+      },
+    "flex-layout.row#department-bannerrow1": {
+        "children": [
+          "flex-layout.col#department-col01-banners-01",
+          "flex-layout.col#department-col02-banners-01",
+          "flex-layout.col#department-col03-banners-01"
+        ],
+        "props": {
+          "blockClass": "rowInfocard",
+          "colGap": 5,
+          "paddingBottom": 4
+        },
+        "title": "department - Infocard Row"
+      },
+      "flex-layout.col#department-col01-banners-01": {
+        "children": [
+          "image#department-bannerrow1-01"
+        ],
+        "props": {
+          "blockClass": "ColLargeGalleryGrid"
+        },
+        "title": "department - Left Column"
+      },
+      "image#department-bannerrow1-01": {
+        "props": {
+          "src": "https://www.ametllerorigen.com/arquivos/Nespres-cat-2.jpg?v=637213527425630000",
+          "blockClass": "bannerrow1"
+        }
+      },
+      "flex-layout.col#department-col02-banners-01": {
+        "children": [
+          "image#department-bannerrow1-02"
+        ],
+        "props": {
+          "blockClass": "ColLargeGalleryGrid"
+        },
+        "title": "department - Middle Column"
+      },
+      "image#department-bannerrow1-02": {
+        "props": {
+          "src": "https://www.ametllerorigen.com/arquivos/MInibanner_rogers-CAT.jpg?v=637212683926670000",
+          "blockClass": "bannerrow1"
+        }
+      },
+      "flex-layout.col#department-col03-banners-01": {
+        "children": [
+          "image#department-bannerrow1-03"
+        ],
+        "props": {
+          "blockClass": "ColLargeGalleryGrid"
+        },
+        "title": "department - Right Column"
+      },
+      "image#department-bannerrow1-03": {
+        "props": {
+          "src": "https://www.ametllerorigen.com/arquivos/Vins-CAT-2.jpg?v=637213537625970000",
+          "blockClass": "bannerrow1"
+        }
+      }
+}
