@@ -144,3 +144,8 @@
 .flexRowContent--rowGalleryGrid {
   margin-bottom: 20px;
 }
+
+:global(.vtex-flex-layout-0-x-flexCol--ColSmallGalleryGrid){
+  flex:grid!important;
+  grid-template-columns: 1fr 1fr;
+}

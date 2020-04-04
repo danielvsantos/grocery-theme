@@ -14,6 +14,8 @@
       "flex-layout.row#deals",
       "rich-text#home-shelf1-title",
       "flex-layout.row#home-shelf1",
+      "rich-text#home-bannerrow-title",
+      "flex-layout.row#home-bannerrow",
       "rich-text#home-shelf2-title",
       "flex-layout.row#home-shelf2",
       "info-card#home",
