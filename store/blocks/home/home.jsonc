@@ -102,7 +102,7 @@
 
   "rich-text#home-shelf1-title": {
     "props": {
-      "text": "## Summer",
+      "text": "**PRODUCTES DESTACATS**",
       "blockClass": "home-shelf-title"
     },
     "title": "HOME - Top Shelf Title"
@@ -133,7 +133,7 @@
   },
   "rich-text#home-shelf2-title": {
     "props": {
-      "text": "**PRODUCTES DESTACATS",
+      "text": "**PRODUCTES DESTACATS**",
       "blockClass": "home-shelf-title"
     },
     "title": "HOME - Bottom Shelf Title"
@@ -147,7 +147,7 @@
     "children": ["slider-layout#home-shelf2"],
     "props": {
       "orderBy": "OrderByTopSaleDESC",
-      "category": "/4" 
+      "category": "4" 
     },
     "title": "Shelf Configurations"
   },
@@ -168,10 +168,10 @@
       "id": "info-card-home",
       "isFullModeStyle": false,
       "textPosition": "left",
-      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
-      "headline": "Clearance Sale",
-      "callToActionText": "DISCOVER",
-      "callToActionUrl": "/sale/d",
+      "imageUrl": "/arquivos/people_bg.jpg",
+      "headline": "QUÈ ÉS AMETLLER ORIGEN?",
+      "callToActionText": "Més informació",
+      "callToActionUrl": "/about-us",
       "blockClass": "info-card-home",
       "textAlignment": "center"
     },
