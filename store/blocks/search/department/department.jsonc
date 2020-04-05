@@ -100,7 +100,7 @@
   },
   "rich-text#department-shelf1-title": {
     "props": {
-      "text": "**Mejores canelones**",
+      "text": "**ELS MILLORS CANELONS I LASANYA**",
       "blockClass": "department-shelf-title"
     },
     "title": "DEPARTMENT - Shelf 1 Title"
@@ -147,7 +147,7 @@
     },
     "rich-text#department-shelf2-title": {
       "props": {
-        "text": "**Creme i sopas**",
+        "text": "**CREMES I SOPES**",
         "blockClass": "department-shelf-title"
       },
       "title": "DEPARTMENT - Shelf 2 Title"
@@ -194,7 +194,7 @@
     },
     "rich-text#department-all-products": {
       "props": {
-        "text": "**Tots le products**",
+        "text": "**TOTS LE PRODUCTS**",
         "blockClass": "department-shelf-title"
       },
       "title": "DEPARTMENT - All products title"
