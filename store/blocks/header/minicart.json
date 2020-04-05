@@ -18,7 +18,6 @@
     },
     "flex-layout.col#minicart-footer": {
       "children": [
-         "flex-layout.row#freeshippingbar",
         "minicart-summary", 
         "minicart-checkout-button"]
     },
@@ -118,14 +117,8 @@
     "minicart-summary": {
       "blocks": [ "checkout-summary.compact#minicart"]
     },
-    "flex-layout.row#freeshippingbar":{
-        "children": [
-            "powerplanet-minicart-freeshipping"
-        ],
-        "title": "Free Shipping"
-    },
     "checkout-summary.compact#minicart": {
-      "children": ["summary-totalizers#minicart"],
+      "children": ["summary-totalizers#minicart", "minicart-status-bar"],
       "props": {
         "totalizersToShow": ["Items", "Discounts"]
       }

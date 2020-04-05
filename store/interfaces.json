@@ -1,5 +1,8 @@
 {
   "location-selector": {
     "component": "LocationSelector"
+  },
+  "minicart-status-bar":{
+    "component": "MinicartStatusBar"
   }
 }
