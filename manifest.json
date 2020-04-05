@@ -1,7 +1,7 @@
 {
   "vendor": "ametllerorigen",
   "name": "store",
-  "version": "2.0.0",
+  "version": "1.7.0",
   "builders": {
     "assets": "0.x",
     "messages": "1.x",
