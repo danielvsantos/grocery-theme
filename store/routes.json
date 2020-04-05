@@ -1,8 +1,17 @@
 {
   "store.custom#about-us": {
-    "path": "/about-us"
+    "path": "/sobre-nosaltres"
   },
   "store.custom#registration": {
     "path": "/apunta-te"
+  },
+  "store.custom#contact": {
+    "path": "/atencio-al-client/contacte"
+  },
+  "store.custom#atencio": {
+    "path": "/atencio-al-client"
+  },
+  "store.custom#institutional": {
+    "path": "/faqs"
   }
 }

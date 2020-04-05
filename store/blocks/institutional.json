@@ -1,0 +1,37 @@
+{
+    "store.custom#institutional": {
+      "blocks": [
+        "flex-layout.row#institutional-page-title",
+        "flex-layout.row#institutional-page"
+      ]
+    },
+    "flex-layout.row#institutional-page-title": {
+        "children": [
+          "rich-text#institutional-page-title"
+        ],
+        "props": {
+          "horizontalAlign": "middle"
+        },
+        "title": "Institutional Page"
+    },
+    "rich-text#institutional-page-title": {
+        "props": {
+          "text":
+          "#CONTACTA AMB NOSALTRES Fes-nos arribar els teus dubtes sobre productes, botigues i serveis a través del següent formulari:",
+          "blockClass": "h2-institutional-page-title"
+        }
+    },
+    "flex-layout.row#institutional-page": {
+        "children": [
+          "rich-text#institutional-page"
+        ],
+        "title": "Institutional Page"
+    },
+    "rich-text#institutional-page": {
+        "props": {
+          "text":
+          "#CONTACTA AMB NOSALTRES Fes-nos arribar els teus dubtes sobre productes, botigues i serveis a través del següent formulari:",
+          "blockClass": "institutional-page-body"
+        }
+    }
+}

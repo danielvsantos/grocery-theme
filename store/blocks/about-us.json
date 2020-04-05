@@ -1,49 +1,56 @@
 {
   "store.custom#about-us": {
     "blocks": [
+      "image#origin-header",
       "flex-layout.row#about-us"
     ]
   },
-
   "flex-layout.row#about-us": {
     "children": [
-      "image#mobile-phone",
-      "flex-layout.col#text-about-us"
-    ]
-  },
-
-  "flex-layout.col#text-about-us": {
-    "children": [
-      "rich-text#title-about-us",
-      "rich-text#about-us"
+      "flex-layout.row#about-us-title",
+      "flex-layout.row#about-us-text"
     ],
     "props": {
-      "blockClass": "textColumn",
       "preventVerticalStretch": true
     }
   },
+  "flex-layout.row#about-us-title": {
+    "children": [
+      "rich-text#title-about-us"
+    ],
+    "props": {
+      "preventVerticalStretch": true
 
+    }
+  },
+  "flex-layout.row#about-us-text": {
+    "children": [
+      "rich-text#about-us"
+    ],
+    "props": {
+      "preventVerticalStretch": true
+    }
+  },
   "rich-text#title-about-us": {
     "props": {
       "text":
       "# ELS NOSTRES ORÍGENS.",
-      "blockClass": "title"
+      "blockClass": "origin-page-title"
     }
   },
 
-  "image#mobile-phone": {
+  "image#origin-header": {
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/mobile-phone.png",
+      "src": "/arquivos/nosaltres-origen-productes-1.jpg?v=636718920426400000",
       "maxHeight": "",
-      "maxWidth": "",
-      "blockClass": "storePrint"
+      "maxWidth": ""
     }
   },
 
   "rich-text#about-us": {
     "props": {
       "text": "**A Ametller Origen cultivem, elaborem i seleccionem els nostres productes per garantir sabor i qualitat des de l’origen.** \n Per això, et podem informar detalladament a les nostres etiquetes, la botiga o el web sobre el seu origen, història i les seves propietats nutricionals. Perquè és important saber què és el que mengem i gaudir encara més de l’experiència. Perquè darrere de cada producte hi ha una història que et volem explicar.",
-      "blockClass": "about"
+      "blockClass": "origin-page-about"
     }
   }
 }

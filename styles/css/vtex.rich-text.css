@@ -107,7 +107,7 @@
 }
 
 .container--title {
-  color: #03034E;
+  color: #3D350B;
   font-size: 28px;
   font-weight: 700;
 }
@@ -119,7 +119,7 @@
   }
 
   .container--title {
-    color: #03034E;
+    color: #3D350B;
     font-size: 40px;
     font-weight: 700;
     max-width: 60%;
@@ -128,4 +128,29 @@
   .container--title .paragraph {
     line-height: 1.3em;
   }
+}
+
+/* INSTITUTIONAL */
+
+.paragraph--h2-institutional-page-title{
+    color: #3D350B;
+    font-size: 26px;
+    justify-content: center;
+}
+
+.paragraph--institutional-page-body{
+  color: #3D350B;
+    font-size: 14px;
+    justify-content: center;
+
+}
+.heading--origin-page-title{
+  color: #3D350B;
+  font-size: 50px;
+  justify-content: center;
+}
+.container--origin-page-about{
+  color: #3D350B;
+  font-size: 18px;
+  justify-content: center;
 }
