@@ -16,11 +16,13 @@
 .categoryItemName {
     color: #3d350b;
 }
+.categoryItemChildren {
+    color: #3d350b;
+}
 
 .selectedCategory {
     font-weight: bold;
 }
-
 .filterItem :global(.vtex-checkbox__label) {
     color: #3d350b;
 }

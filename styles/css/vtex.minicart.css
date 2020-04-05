@@ -1,3 +1,18 @@
 .cartIcon {
     color: #3D350B;
 }
+
+.closeIconContainer {
+    background-color: #f7f7f1;
+    padding-bottom: 0px;
+}
+.minicartTitle {
+    text-align: center;
+    vertical-align: center;
+    font-size: 18px;
+    background-color: #f7f7f1;
+    margin-top: 0px;
+    padding-bottom: 4px;
+    box-shadow: 0 6px 2px -2px #f7f7f1;
+}
+

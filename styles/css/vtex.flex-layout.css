@@ -15,7 +15,11 @@
     padding: 0 0.25rem;
   }
 }
+/* MINICART */
 
+.flexRowContent--minicart-footer {
+  background-color: #f7f7f1;
+}
 
 /* Department */
 
