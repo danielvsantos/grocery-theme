@@ -112,7 +112,7 @@
   },
   "rich-text#register": {
     "props": {
-      "text": "[Fes-te del club](/apunta-te)",
+      "text": "[Fes-te del club](/fes-te-del-club)",
       "blockClass": "register"
     },
     "title": "Register CTA"

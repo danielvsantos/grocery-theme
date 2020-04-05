@@ -8,9 +8,30 @@
 
 /* Header */
 
-.styledLinkContent--header-department-title{
-  color: #FFFFFF;
-  font-family: 'Lato';
+
+@media screen and (min-width: 40em) {
+  .styledLinkContent--header-department-title{
+    color: #3D350B;
+  }
+}
+
+@media screen and (min-width: 50em) {
+  .styledLinkContent--header-department-title{
+    color: #3D350B;
+  }
+}
+
+
+@media screen and (min-width: 64em) {
+  .styledLinkContent--header-department-title{
+    color: #FFFFFF;
+  }
+}
+
+@media screen and (min-width: 82em) {
+  .styledLinkContent--header-department-title{
+    color: #FFFFFF;
+  }
 }
 
 .styledLinkContent--header-promotions-title{
