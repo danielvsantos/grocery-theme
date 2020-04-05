@@ -12,9 +12,9 @@
     "children": [
       "flex-layout.col#footer-1-desktop",
       "footer-spacer",
-      "vtex.menu@2.x:menu#footer-clothing",
-      "vtex.menu@2.x:menu#footer-decoration",
-      "vtex.menu@2.x:menu#footer-bags",
+      "vtex.menu@2.x:menu#footer-column1",
+      "vtex.menu@2.x:menu#footer-column2",
+      "vtex.menu@2.x:menu#footer-column3",
       "footer-spacer",
       "flex-layout.col#footer-2-desktop"
     ],
@@ -70,13 +70,14 @@
     "props": {
       "blockClass": "contact-footer-row",
       "paddingTop": 6,
-      "paddingBottom": 3
+      "paddingBottom": 3,
+      "verticalAlign": "middle"
     }
   },
   "image#contact": {
     "props": {
       "src": "https://www.ametllerorigen.com/arquivos/phone-call.png?v=636993845839200000",
-      "maxHeight": "24px"
+      "maxHeight": "40px"
     },
     "title": "Call us"
   },

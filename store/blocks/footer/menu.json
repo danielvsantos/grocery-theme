@@ -1,335 +1,515 @@
 {
-  "vtex.menu@2.x:menu#footer-decoration": {
+  "vtex.menu@2.x:menu#footer-column1": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#smartphones",
-      "menu-item#videogames",
-      "menu-item#tvs"
+      "menu-item#footer-column1-row1",
+      "menu-item#footer-column1-row2",
+      "menu-item#footer-column1-row3",
+      "menu-item#footer-column1-row4",
+      "menu-item#footer-column1-row5",
+      "menu-item#footer-column1-row6",
+      "menu-item#footer-column1-row7",
+      "menu-item#footer-column1-row8",
+      "menu-item#footer-column1-row9",
+      "menu-item#footer-column1-row10"
     ]
   },
 
-  "menu-item#smartphones": {
+  "menu-item#footer-column1-row1": {
     "props": {
-      "id": "menu-item-smartphones",
+      "id": "menu-footer-column1-row1",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/decoration/smartphones",
+        "href": "",
         "noFollow": true,
-        "tagTitle": "Smartphones",
-        "text": "Smartphones"
+        "tagTitle": "PRODUCTES",
+        "text": "PRODUCTES"
       },
-      "blockClass": "links-footer"
+      "blockClass": "main-links-footer"
     }
   },
-
-  "menu-item#videogames": {
+  "menu-item#footer-column1-row2": {
     "props": {
-      "id": "menu-item-videogames",
+      "id": "menu-footer-column1-row2",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/decoration/videogames",
-        "noFollow": true,
-        "tagTitle": "Videogames",
-        "text": "Videogames"
+        "href": "/verdura-i-hortalissa",
+        "noFollow": false,
+        "tagTitle": "Verdura",
+        "text": "Verdura"
       },
       "blockClass": "links-footer"
     }
   },
-
-  "menu-item#tvs": {
+  "menu-item#footer-column1-row3": {
     "props": {
-      "id": "menu-item-tvs",
+      "id": "menu-footer-column1-row3",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/decoration/tvs",
-        "noFollow": true,
-        "tagTitle": "TVs",
-        "text": "TVs"
+        "href": "/fruita",
+        "noFollow": false,
+        "tagTitle": "Fruita",
+        "text": "Fruita"
       },
       "blockClass": "links-footer"
     }
   },
-
-  "vtex.menu@2.x:menu#footer-bags": {
+  "menu-item#footer-column1-row4": {
+    "props": {
+      "id": "menu-footer-column1-row4",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/plats-cuinats",
+        "noFollow": false,
+        "tagTitle": "Plats Cuinats",
+        "text": "Plats Cuinats"
+      },
+      "blockClass": "links-footer"
+    }
+  },
+  "menu-item#footer-column1-row5": {
+    "props": {
+      "id": "menu-footer-column1-row5",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/lactics-i-ous",
+        "noFollow": false,
+        "tagTitle": "Làctics i Ous",
+        "text": "Làctics i Ous"
+      },
+      "blockClass": "links-footer"
+    }
+  },
+  "menu-item#footer-column1-row6": {
+    "props": {
+      "id": "menu-footer-column1-row6",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/carn-i-xarcuteria",
+        "noFollow": false,
+        "tagTitle": "Carn i Xarcuteria",
+        "text": "Carn i Xarcuteria"
+      },
+      "blockClass": "links-footer"
+    }
+  },
+  "menu-item#footer-column1-row7": {
+    "props": {
+      "id": "menu-footer-column1-row7",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/peix",
+        "noFollow": false,
+        "tagTitle": "Peix",
+        "text": "Peix"
+      },
+      "blockClass": "links-footer"
+    }
+  },
+  "menu-item#footer-column1-row8": {
+    "props": {
+      "id": "menu-footer-column1-row8",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/rebost",
+        "noFollow": false,
+        "tagTitle": "Rebost",
+        "text": "Rebost"
+      },
+      "blockClass": "links-footer"
+    }
+  },
+  "menu-item#footer-column1-row9": {
+    "props": {
+      "id": "menu-footer-column1-row9",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/forn-de-pa",
+        "noFollow": false,
+        "tagTitle": "Forn de Pa",
+        "text": "Forn de Pa"
+      },
+      "blockClass": "links-footer"
+    }
+  },
+  "menu-item#footer-column1-row10": {
+    "props": {
+      "id": "menu-footer-column1-row10",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/begudes",
+        "noFollow": false,
+        "tagTitle": "Begudes",
+        "text": "Begudes"
+      },
+      "blockClass": "links-footer"
+    }
+  },
+  "vtex.menu@2.x:menu#footer-column2": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#bags",
-      "menu-item#backpacks",
-      "menu-item#necessaire"
+      "menu-item#footer-column2-row1",
+      "menu-item#footer-column2-row2",
+      "menu-item#footer-column2-row3",
+      "menu-item#footer-column2-row4"
     ]
   },
-
-  "menu-item#bags": {
+  "menu-item#footer-column2-row1": {
     "props": {
-      "id": "menu-item-bags",
+      "id": "menu-footer-column2-row1",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/bags/d",
-        "noFollow": true,
-        "tagTitle": "Bags",
-        "text": "Bags"
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "ENLLAÇOS D'INTERÉS",
+        "text": "ENLLAÇOS D'INTERÉS"
       },
-      "blockClass": "links-footer"
+      "blockClass": "main-links-footer"
     }
   },
-
-  "menu-item#backpacks": {
+  "menu-item#footer-column2-row2": {
     "props": {
-      "id": "menu-item-backpacks",
+      "id": "menu-footer-column2-row2",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/bags/backpacks",
-        "noFollow": true,
-        "tagTitle": "Backpacks",
-        "text": "Backpacks"
+        "href": "/sobre-nosaltres",
+        "noFollow": false,
+        "tagTitle": "Orígens",
+        "text": "Orígens"
       },
       "blockClass": "links-footer"
     }
   },
-
-  "menu-item#necessaire": {
+  "menu-item#footer-column2-row3": {
     "props": {
-      "id": "menu-item-necessaire",
+      "id": "menu-footer-column2-row3",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.ametllerorigen.cat",
+        "noFollow": false,
+        "tagTitle": "Web del Grup",
+        "text": "Web del Grup"
+      },
+      "blockClass": "links-footer"
+    }
+  },
+  "menu-item#footer-column2-row4": {
+    "props": {
+      "id": "menu-footer-column2-row4",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/bags/necessaire",
-        "noFollow": true,
-        "tagTitle": "Necessaire",
-        "text": "Necessaire"
+        "href": "/promocions",
+        "noFollow": false,
+        "tagTitle": "Promocions",
+        "text": "Promocions"
       },
       "blockClass": "links-footer"
     }
   },
 
-  "vtex.menu@2.x:menu#footer-clothing": {
+  "vtex.menu@2.x:menu#footer-column3": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#clothing",
-      "menu-item#shorts",
-      "menu-item#tank-tops",
-      "menu-item#shirts",
-      "menu-item#sweatshirt",
-      "menu-item#cropped"
+      "menu-item#footer-column3-row1",
+      "menu-item#footer-column3-row2",
+      "menu-item#footer-column3-row3",
+      "menu-item#footer-column3-row4",
+      "menu-item#footer-column3-row5",
+      "menu-item#footer-column3-row6",
+      "menu-item#footer-column3-row7",
+      "menu-item#footer-column3-row8"
     ]
   },
-
+  "menu-item#footer-column3-row1": {
+    "props": {
+      "id": "menu-footer-column3-row1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "ATENCIÓ AL CLIENT",
+        "text": "ATENCIÓ AL CLIENT"
+      },
+      "blockClass": "main-links-footer"
+    }
+  },
+  "menu-item#footer-column3-row2": {
+    "props": {
+      "id": "menu-footer-column3-row2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/codis-postals",
+        "noFollow": false,
+        "tagTitle": "Consultar codis postals d'entrega",
+        "text": "Consultar codis postals d'entrega"
+      },
+      "blockClass": "links-footer"
+    }
+  },
+  "menu-item#footer-column3-row3": {
+    "props": {
+      "id": "menu-footer-column3-row3",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/atencio-al-client/contacte",
+        "noFollow": false,
+        "tagTitle": "Contacte",
+        "text": "Contacte"
+      },
+      "blockClass": "links-footer"
+    }
+  },
+  "menu-item#footer-column3-row4": {
+    "props": {
+      "id": "menu-footer-column3-row4",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/atencio-al-client/contacte",
+        "noFollow": false,
+        "tagTitle": "Club Ametller Orígen",
+        "text": "Club Ametller Orígen"
+      },
+      "blockClass": "links-footer"
+    }
+  },
+  "menu-item#footer-column3-row5": {
+    "props": {
+      "id": "menu-footer-column3-row5",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/atencio-al-client/condicions-de-venda",
+        "noFollow": false,
+        "tagTitle": "Condicions de venda",
+        "text": "Condicions de venda"
+      },
+      "blockClass": "links-footer"
+    }
+  },
+  "menu-item#footer-column3-row6": {
+    "props": {
+      "id": "menu-footer-column3-row6",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/atencio-al-client/nota-legal",
+        "noFollow": false,
+        "tagTitle": "Nota Legal",
+        "text": "Nota Legal"
+      },
+      "blockClass": "links-footer"
+    }
+  },
+  "menu-item#footer-column3-row7": {
+    "props": {
+      "id": "menu-footer-column3-row7",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/sobre-nosaltres/informacio-addicional-RGPDUE",
+        "noFollow": false,
+        "tagTitle": "Informació addicional RGPDUE",
+        "text": "Informació addicional RGPDUE"
+      },
+      "blockClass": "links-footer"
+    }
+  },
+  "menu-item#footer-column3-row8": {
+    "props": {
+      "id": "menu-footer-column3-row8",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/faqs",
+        "noFollow": false,
+        "tagTitle": "FAQs",
+        "text": "FAQs"
+      },
+      "blockClass": "links-footer"
+    }
+  },
   "vtex.menu@2.x:menu#footer-mobile": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#clothing-mobile",
-      "menu-item#decoration-mobile",
-      "menu-item#sale-mobile"
+      "menu-item#footer-mobile-1",
+      "menu-item#footer-mobile-2",
+      "menu-item#footer-mobile-3"
     ]
   },
 
-  "menu-item#clothing-mobile": {
+  "menu-item#footer-mobile-1": {
     "props": {
-      "id": "menu-item-category-clothing",
+      "id": "menu-item-footer-mobile-1",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/d",
+        "href": "",
         "noFollow": true,
-        "tagTitle": "Clothing",
-        "text": "Clothing"
+        "tagTitle": "PRODUCTES",
+        "text": "PRODUCTES"
       },
-      "blockClass": "links-footer"
+      "blockClass": "main-links-footer"
     },
-    "blocks": ["vtex.menu@2.x:submenu.accordion#clothing"]
+    "blocks": ["vtex.menu@2.x:submenu.accordion#footer-accordion1"]
   },
-  "vtex.menu@2.x:submenu.accordion#clothing": {
-    "children": ["vtex.menu@2.x:menu#clothing-accordion"]
+  "vtex.menu@2.x:submenu.accordion#footer-accordion1": {
+    "children": ["vtex.menu@2.x:menu#footer-accordion1"]
   },
 
-  "vtex.menu@2.x:menu#clothing-accordion": {
+  "vtex.menu@2.x:menu#footer-accordion1": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#shorts",
-      "menu-item#tank-tops",
-      "menu-item#shirts",
-      "menu-item#sweatshirt",
-      "menu-item#cropped"
+      "menu-item#footer-column1-row2",
+      "menu-item#footer-column1-row3",
+      "menu-item#footer-column1-row4",
+      "menu-item#footer-column1-row5",
+      "menu-item#footer-column1-row6",
+      "menu-item#footer-column1-row7",
+      "menu-item#footer-column1-row8",
+      "menu-item#footer-column1-row9",
+      "menu-item#footer-column1-row10"
     ]
   },
 
-  "menu-item#decoration-mobile": {
+  "menu-item#footer-mobile-2": {
     "props": {
-      "itemProps": {
-        "tagTitle": "Decoration",
-        "text": "Decoration"
-      }
-    },
-    "blocks": ["vtex.menu@2.x:submenu.accordion#decoration"]
-  },
-  "vtex.menu@2.x:submenu.accordion#decoration": {
-    "children": ["vtex.menu@2.x:menu#footer-decoration-mobile"]
-  },
-
-  "vtex.menu@2.x:menu#footer-decoration-mobile": {
-    "props": {
-      "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#smartphones",
-      "menu-item#videogames",
-      "menu-item#tvs"
-    ]
-  },
-
-  "menu-item#sale-mobile": {
-    "props": {
-      "itemProps": {
-        "tagTitle": "Sale",
-        "text": "Sale"
-      },
-      "blockClass": "links-footer"
-    },
-    "blocks": ["vtex.menu@2.x:submenu.accordion#sale"]
-  },
-  "vtex.menu@2.x:submenu.accordion#sale": {
-    "children": ["vtex.menu@2.x:menu#footer-sale-mobile"]
-  },
-
-  "vtex.menu@2.x:menu#footer-sale-mobile": {
-    "props": {
-      "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#smartphones",
-      "menu-item#videogames",
-      "menu-item#tvs"
-    ]
-  },
-
-  "menu-item#clothing": {
-    "props": {
-      "id": "menu-item-category-clothing",
+      "id": "menu-item-footer-mobile-1",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/d",
+        "href": "",
         "noFollow": true,
-        "tagTitle": "Clothing",
-        "text": "Clothing"
+        "tagTitle": "ENLLAÇOS D'INTERÉS",
+        "text": "ENLLAÇOS D'INTERÉS"
       },
-      "blockClass": "links-footer"
-    }
+      "blockClass": "main-links-footer"
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#footer-accordion2"]
+  },
+  "vtex.menu@2.x:submenu.accordion#footer-accordion2": {
+    "children": ["vtex.menu@2.x:menu#footer-accordion2"]
   },
 
-  "menu-item#shorts": {
+  "vtex.menu@2.x:menu#footer-accordion2": {
     "props": {
-      "id": "menu-item-shorts",
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#footer-column2-row2",
+      "menu-item#footer-column2-row3",
+      "menu-item#footer-column2-row4"
+    ]
+  },
+
+  "menu-item#footer-mobile-3": {
+    "props": {
+      "id": "menu-item-footer-mobile-1",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/shorts",
-        "noFollow": false,
-        "tagTitle": "Shorts",
-        "text": "Shorts"
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "ATENCIÓ AL CLIENT",
+        "text": "ATENCIÓ AL CLIENT"
       },
-      "blockClass": "links-footer"
-    }
+      "blockClass": "main-links-footer"
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#footer-accordion3"]
+  },
+  "vtex.menu@2.x:submenu.accordion#footer-accordion3": {
+    "children": ["vtex.menu@2.x:menu#footer-accordion3"]
   },
 
-  "menu-item#tank-tops": {
+  "vtex.menu@2.x:menu#footer-accordion3": {
     "props": {
-      "id": "menu-item-tank-tops",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/clothing/tank-tops",
-        "noFollow": false,
-        "tagTitle": "Tank tops",
-        "text": "Tank tops"
-      },
-      "blockClass": "links-footer"
-    }
-  },
-
-  "menu-item#shirts": {
-    "props": {
-      "id": "menu-item-shirts",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/clothing/shirts",
-        "noFollow": false,
-        "tagTitle": "Shirts",
-        "text": "Shirts"
-      },
-      "blockClass": "links-footer"
-    }
-  },
-
-  "menu-item#sweatshirt": {
-    "props": {
-      "id": "menu-item-sweat-shirts",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/clothing/sweatshirt",
-        "noFollow": false,
-        "tagTitle": "Sweatshirt",
-        "text": "Sweatshirt"
-      },
-      "blockClass": "links-footer"
-    }
-  },
-
-  "menu-item#cropped": {
-    "props": {
-      "id": "menu-item-cropped",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/clothing/cropped",
-        "noFollow": false,
-        "tagTitle": "Cropped",
-        "text": "Cropped"
-      },
-      "blockClass": "links-footer"
-    }
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#footer-column3-row2",
+      "menu-item#footer-column3-row3",
+      "menu-item#footer-column3-row4",
+      "menu-item#footer-column3-row5",
+      "menu-item#footer-column3-row6",
+      "menu-item#footer-column3-row7",
+      "menu-item#footer-column3-row8"
+    ]
   }
 }
