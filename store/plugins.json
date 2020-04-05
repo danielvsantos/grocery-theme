@@ -1,0 +1,6 @@
+{
+  "my-account-pages > my-account-page": "my-account-page",
+  "my-account-menu > my-account-link": "my-account-link",
+  "profile-display-container > profile-display": "profile-display",
+  "profile-input-container > profile-input": "profile-input"
+}
