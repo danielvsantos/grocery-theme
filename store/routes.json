@@ -13,5 +13,8 @@
   },
   "store.custom#institutional": {
     "path": "/faqs"
+  },
+  "store.custom#promocions": {
+    "path": "/promocions"
   }
 }

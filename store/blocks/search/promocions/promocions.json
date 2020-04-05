@@ -1,0 +1,38 @@
+{
+    "store.custom#promocions": {
+        "blocks": [
+            "flex-layout.row#promocions-title",
+            "flex-layout.row#promocions-bannerrow1",
+            "search-result-layout.customQuery#promocions"
+        ]
+    },
+    "flex-layout.row#promocions-title": {
+        "children": [
+          "rich-text#promo-title"
+        ],
+        "props": {
+          "blockClass": "department-tile",
+          "horizontalAlign": "middle"
+        }
+    },
+    "rich-text#promo-title": {
+        "props": {
+          "text": "PROMOCIONS",
+          "blockClass": "h2-promo-page-title"
+        }
+    },
+    "search-result-layout.customQuery#promocions":{
+        "props": {
+            "querySchema": {
+                "skusFilter": "FIRST_AVAILABLE",
+                "simulationBehavior": "skip",
+                "hideUnavailableItems": "true"
+                }
+        },
+        "blocks": [
+            "search-result-layout.desktop",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    }
+}

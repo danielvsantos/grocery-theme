@@ -1,0 +1,60 @@
+{
+    "flex-layout.row#promocions-bannerrow1": {
+        "children": [
+          "flex-layout.col#promocions-col01-banners-01",
+          "flex-layout.col#promocions-col02-banners-01",
+          "flex-layout.col#promocions-col03-banners-01"
+        ],
+        "props": {
+          "blockClass": "rowInfocard",
+          "colGap": 5,
+          "paddingBottom": 4
+        },
+        "title": "promocions - Infocard Row"
+      },
+      "flex-layout.col#promocions-col01-banners-01": {
+        "children": [
+          "image#promocions-bannerrow1-01"
+        ],
+        "props": {
+          "blockClass": "ColLargeGalleryGrid"
+        },
+        "title": "promocions - Left Column"
+      },
+      "image#promocions-bannerrow1-01": {
+        "props": {
+          "src": "https://www.ametllerorigen.com/arquivos/Nespres-cat-2.jpg?v=637213527425630000",
+          "blockClass": "bannerrow1"
+        }
+      },
+      "flex-layout.col#promocions-col02-banners-01": {
+        "children": [
+          "image#promocions-bannerrow1-02"
+        ],
+        "props": {
+          "blockClass": "ColLargeGalleryGrid"
+        },
+        "title": "promocions - Middle Column"
+      },
+      "image#promocions-bannerrow1-02": {
+        "props": {
+          "src": "https://www.ametllerorigen.com/arquivos/MInibanner_rogers-CAT.jpg?v=637212683926670000",
+          "blockClass": "bannerrow1"
+        }
+      },
+      "flex-layout.col#promocions-col03-banners-01": {
+        "children": [
+          "image#promocions-bannerrow1-03"
+        ],
+        "props": {
+          "blockClass": "ColLargeGalleryGrid"
+        },
+        "title": "promocions - Right Column"
+      },
+      "image#promocions-bannerrow1-03": {
+        "props": {
+          "src": "https://www.ametllerorigen.com/arquivos/Vins-CAT-2.jpg?v=637213537625970000",
+          "blockClass": "bannerrow1"
+        }
+      }
+}

@@ -130,12 +130,23 @@
   }
 }
 
+/* PROMOCIONS */
+
+.paragraph--h2-promo-page-title {
+  color: #3D350B;
+  font-size: 50px;
+}
+
+.container--h2-promo-page-title {
+  justify-content: center;
+}
+
 /* INSTITUTIONAL */
 
 .paragraph--h2-institutional-page-title{
     color: #3D350B;
     font-size: 26px;
-    justify-content: center;
+    text-align: center;
 }
 
 .paragraph--institutional-page-body{
