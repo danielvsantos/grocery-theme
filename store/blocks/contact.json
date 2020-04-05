@@ -29,8 +29,8 @@
     "rich-text#contact-page-title": {
         "props": {
           "text":
-          "#CONTACTA AMB NOSALTRES Fes-nos arribar els teus dubtes sobre productes, botigues i serveis a través del següent formulari:",
-          "blockClass": "h2-contact-page"
+          "CONTACTA AMB NOSALTRES Fes-nos arribar els teus dubtes sobre productes, botigues i serveis a través del següent formulari:",
+          "blockClass": "h2-institutional-page-title"
         }
     },
     "flex-layout.col#contact-form": {
