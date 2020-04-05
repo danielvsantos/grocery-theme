@@ -4,5 +4,17 @@
   },
   "minicart-status-bar":{
     "component": "MinicartStatusBar"
+  },
+  "my-account-page": {
+    "component": "MyPreferencesPage"
+  },
+  "my-account-link": {
+    "component": "MyPreferencesLink"
+  },
+  "profile-display": {
+    "component": "showClauCollectivitat"
+  },
+  "profile-input": {
+    "component": "ClauCollectivitat"
   }
 }

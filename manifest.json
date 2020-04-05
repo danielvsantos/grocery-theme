@@ -1,9 +1,10 @@
 {
   "vendor": "ametllerorigen",
   "name": "store",
-  "version": "1.5.2",
+  "version": "1.6.1",
   "builders": {
     "assets": "0.x",
+    "messages": "1.x",
     "styles": "2.x",
     "react": "3.x",
     "store": "0.x",
@@ -60,7 +61,8 @@
     "vtex.responsive-layout": "0.x",
     "vtex.tab-layout": "0.x",
     "vtex.store-form": "0.x",
-    "vtex.sandbox": "0.x"
+    "vtex.my-account-commons": "0.x",
+    "vtex.store-graphql": "2.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
