@@ -47,6 +47,14 @@
         "skusFilter": "FIRST_AVAILABLE",
         "simulationBehavior": "default",
         "hideUnavailableItems": "true"
+      },
+      "showFacetQuantity": "true",
+      "hiddenFacets": {
+        "specificationFilters": {
+          "hiddenFilters":[
+          
+          ]
+        }
       }
     }
   },

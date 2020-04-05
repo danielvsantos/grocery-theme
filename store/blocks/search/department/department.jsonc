@@ -35,6 +35,14 @@
         "skusFilter": "FIRST_AVAILABLE",
         "simulationBehavior": "default",
         "hideUnavailableItems": "true"
+      },
+      "showFacetQuantity": "true",
+      "hiddenFacets": {
+        "specificationFilters": {
+          "hiddenFilters":[
+          
+          ]
+        }
       }
     }
   },
@@ -208,9 +216,7 @@
         "__fold__.experimentalLazyAssets",
         "flex-layout.row#department-shelf2-title",
         "flex-layout.row#department-shelf2",
-        "flex-layout.row#department-all-products",
-        "flex-layout.row#productCountMobile",
-        "flex-layout.row#contentmobile"
+        "flex-layout.row#department-all-products"
       ],
       "props": {
         "pagination": "show-more",

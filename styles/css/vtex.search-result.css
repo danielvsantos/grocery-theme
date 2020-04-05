@@ -1,3 +1,26 @@
 .galleryTitle--layout {
     color: #3d350b;
 }
+
+
+.filters--layout {
+    border: 1px solid #ddd8c8;
+    background-color: #F7F7F1;
+    color: #3d350b;
+}
+
+.filterTitle {
+    color: #3d350b;
+}
+
+.categoryItemName {
+    color: #3d350b;
+}
+
+.selectedCategory {
+    font-weight: bold;
+}
+
+.filterItem :global(.vtex-checkbox__label) {
+    color: #3d350b;
+}
