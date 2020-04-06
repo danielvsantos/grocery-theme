@@ -1,3 +1,15 @@
 {
-  "store/userSupport.link": "Mis preferencias"
+  "store/userSupport.link": "Mis preferencias",
+  "store/cart.continueShopping": "Seguir comprando",
+  "store/cart.title": "Carrito",
+  "store/cart.items": "({itemsQuantity, plural, one {# producto} other {# productos}})",
+  "store/cart.emptyState.title": "El carrito esta vacio",
+  "store/cart.emptyState.message": "Agregue productos explorando categorías o buscándolos.",
+  "store/cart.emptyState.button": "Elige productos",
+  "store/cart.checkout": "Ir a Pagar",
+  "store/cart.removeToast": "El producto {name} se ha eliminado del carrito",
+  "admin/editor.cart.label": "Carrito",
+  "admin/editor.cart.title": "Título",
+  "admin/editor.cart.continueShopping": "Botón seguir comprando",
+  "admin/editor.cart.checkout": "Botón ir a pagar"
 }

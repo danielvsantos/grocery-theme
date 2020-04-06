@@ -84,5 +84,15 @@
   },
   "store.not-found#search": {
     "blocks": ["rich-text#not-found"]
+  },
+  "store.custom#cart":{
+    "blocks": ["checkout-cart"]
+  },
+  "checkout-cart": {
+    "blocks": [
+      "checkout-cart-single-col",
+      "checkout-cart-two-cols",
+      "empty-state"
+    ]
   }
 }
