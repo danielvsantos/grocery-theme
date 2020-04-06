@@ -1,7 +1,7 @@
 {
   "vendor": "ametllerorigen",
   "name": "store",
-  "version": "1.7.0",
+  "version": "1.7.1",
   "builders": {
     "assets": "0.x",
     "messages": "1.x",
@@ -62,7 +62,15 @@
     "vtex.tab-layout": "0.x",
     "vtex.store-form": "0.x",
     "vtex.my-account-commons": "0.x",
-    "vtex.store-graphql": "2.x"
+    "vtex.store-graphql": "2.x",
+    "vtex.shipping-calculator": "0.x",
+    "vtex.checkout-graphql": "0.x",
+    "vtex.order-items": "0.x",
+    "vtex.order-shipping": "0.x",
+    "vtex.order-coupon": "0.x",
+    "vtex.device-detector": "0.x",
+    "vtex.checkout-resources": "0.x",
+    "vtex.native-types": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

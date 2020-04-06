@@ -1,3 +1,15 @@
 {
-  "store/userSupport.link": "Les meves preferències"
+  "store/userSupport.link": "Les meves preferències",
+  "store/cart.continueShopping": "Continuar amb la compra",
+  "store/cart.title": "El teus productes",
+  "store/cart.items": "({itemsQuantity, plural, one {# produto} other {# produtos}})",
+  "store/cart.emptyState.title": "El carret està buit",
+  "store/cart.emptyState.message": "Afegiu productes navegant per categories o cercant-los.",
+  "store/cart.emptyState.button": "Trieu productes",
+  "store/cart.checkout": "Continua",
+  "store/cart.removeToast": "El producte {name} s'ha tret del carretó",
+  "admin/editor.cart.label": "Carretó",
+  "admin/editor.cart.title": "Títol",
+  "admin/editor.cart.continueShopping": "Botó per continuar comprant",
+  "admin/editor.cart.checkout": "Botó de compra"
 }

@@ -16,5 +16,8 @@
   },
   "store.custom#promocions": {
     "path": "/promocions"
+  },
+  "store.custom#cart": {
+    "path": "/cart"
   }
 }
