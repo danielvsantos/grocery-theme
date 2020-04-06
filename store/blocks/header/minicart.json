@@ -130,12 +130,12 @@
       }
     },
     "minicart-empty-state": {
-      "children": ["flex-layout.row#empty-state"]
+      "children": ["flex-layout.row#empty-state-minicart"]
     },
-    "flex-layout.row#empty-state": {
-      "children": ["flex-layout.col#empty-state"]
+    "flex-layout.row#empty-state-minicart": {
+      "children": ["flex-layout.col#empty-state-minicart"]
     },
-    "flex-layout.col#empty-state": {
+    "flex-layout.col#empty-state-minicart": {
       "children": ["rich-text#empty-state"]
     },
     "rich-text#empty-state": {

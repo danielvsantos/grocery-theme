@@ -1,16 +1,16 @@
 {
   "empty-state": {
-    "children": ["flex-layout.row#empty-state"]
+    "children": ["flex-layout.row#empty-state-cart"]
   },
-  "flex-layout.row#empty-state": {
-    "children": ["flex-layout.col#empty-state"],
+  "flex-layout.row#empty-state-cart": {
+    "children": ["flex-layout.col#empty-state-cart"],
     "props": {
       "paddingTop": 10,
       "blockClass": "cartContainer",
       "fullWidth": true
     }
   },
-  "flex-layout.col#empty-state": {
+  "flex-layout.col#empty-state-cart": {
     "children": [
       "flex-layout.row#empty-state-icon",
       "flex-layout.row#empty-state-message"
