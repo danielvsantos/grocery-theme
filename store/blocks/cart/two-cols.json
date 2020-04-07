@@ -1,7 +1,6 @@
 {
   "checkout-cart-two-cols": {
     "children": [
-      "cart-substitution",
       "flex-layout.row#two-cols"]
   },
   "flex-layout.row#two-cols": {

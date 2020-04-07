@@ -86,7 +86,9 @@
     "blocks": ["rich-text#not-found"]
   },
   "store.custom#cart":{
-    "blocks": ["checkout-cart"]
+    "blocks": [
+      "cart-substitution",
+      "checkout-cart"]
   },
   "checkout-cart": {
     "blocks": [

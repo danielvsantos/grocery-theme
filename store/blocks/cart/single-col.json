@@ -12,7 +12,6 @@
   },
   "flex-layout.col#single": {
     "children": [
-      "cart-substitution",
       "flex-layout.row#title",
       "flex-layout.row#product-list",
       "flex-layout.row#shipping",
